@@ -1,0 +1,88 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenRepo name: "jboss", urls: "http://repository.jboss.org/nexus/content/groups/public/"
+    }
+    dependencies {
+        classpath 'org.jboss.jdocbook:gradle-jdocbook:1.1.1-SNAPSHOT'
+    }
+}
+/*
+ * jDocBook, processing of DocBook sources
+ *
+ * Copyright (c) 2011, Red Hat Inc. or third-party contributors as
+ * indicated by the @author tags or express copyright attribution
+ * statements applied by the authors.  All third-party contributions are
+ * distributed under license by Red Hat Inc.
+ *
+ * This copyrighted material is made available to anyone wishing to use, modify,
+ * copy, or redistribute it subject to the terms and conditions of the GNU
+ * Lesser General Public License, as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License
+ * for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this distribution; if not, write to:
+ * Free Software Foundation, Inc.
+ * 51 Franklin Street, Fifth Floor
+ * Boston, MA  02110-1301  USA
+ */
+
+apply plugin: "jdocbook"
+
+// the stylesheets used in the format are came from hibernate-jdocbook-style
+// but they're optional, you can use others or the default come from docbook-xsl
+dependencies {
+    jdocbookStyles("org.jboss:jbossorg-jdocbook-style:1.1.0:jdocbook-style") {
+        exclude group: "org.eclipse.wst.css", module: "core"
+        exclude group: "org.eclipse.wst.sse", module: "core"
+    }
+    jdocbookStyles("org.jboss:jbossorg-docbook-xslt:1.1.0") {
+        exclude group: "org.eclipse.wst.css", module: "core"
+        exclude group: "org.eclipse.wst.sse", module: "core"
+    }
+    jdocbookStyles("org.jboss:jbossorg-fonts:1.0.0")
+    jdocbookStyles files("styles/build/libs/styles.jdocbook-style")
+}
+repositories {
+    mavenCentral()
+    mavenRepo name: "jboss", urls: "http://repository.jboss.org/nexus/content/groups/public/"
+}
+
+/**
+ * script for keeping the compatibility
+ */
+/**
+ * the project structure is supposed to be src/main/docbook/en-US/[images|fonts|css]
+ */
+jdocbook {
+    masterSourceDocumentName = 'book.xml'
+    format {
+        name = 'html_single'
+        finalName = 'index.html'
+        stylesheet = "classpath:/xslt/org/hibernate/jdocbook/xslt/xhtml-single.xsl"
+    }
+    format {
+        name = 'html'
+        finalName = 'index.html'
+        stylesheet = "classpath:/xslt/org/hibernate/jdocbook/xslt/xhtml.xsl"
+    }
+/*    format {
+        name = 'pdf'
+        finalName = "building_your_own_3d_printer.pdf"
+        stylesheet = "classpath:/xslt/org/hibernate/jdocbook/xslt/pdf.xsl"
+    } */
+}
+
+task("clean", type: Delete, dependsOn: ":styles:clean") {
+   delete = "build"
+}
+
+stageStyles.dependsOn "clean", ":styles:jar"
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.0-milestone-3'
+}

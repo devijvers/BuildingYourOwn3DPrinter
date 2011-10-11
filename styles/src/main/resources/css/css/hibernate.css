@@ -1,0 +1,138 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("jbossorg.css");
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* work around problems in the jboss.org styles wrt html & jHighLight */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+pre br {
+    display:none;
+}
+
+pre.JAVA {
+    line-height: 1.29em;
+}
+
+pre.XML {
+    line-height: 1.29em;
+}
+
+pre.JSP {
+    line-height: 1.29em;
+}
+
+pre.XHTML {
+    line-height: 1.29em;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.article p, .article ul, .article ol, .article pre, .article blockquote, .article .mediaobject, .article .sidebar {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.article .mediaobject p, .article .sidebar p, .article ul li p, .article ol li p {
+	margin-left: 1em;
+	margin-right: 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1{
+	color:#182737;
+}
+
+
+h2,h3,h4,h5,h6{
+    color:#4a5d75;
+}
+
+
+.article ul {
+	list-style: disc outside none;
+	padding-left: 2em;
+}
+
+hr, .article {
+	clear: both;
+}
+
+#title a.site_href {
+    display:block;
+    height:109px;
+    width:480px;
+    float:left;
+    background:url(../images/org/reprap/reprap_logo.png) top left no-repeat;
+}
+
+#title a.doc_href {
+    display:block;
+    height:100px;
+}
+
+.releaseinfo {
+    color:#4a5d75;
+    font-size:150%;
+}
+
+div.note {
+    background-color:#849092;
+    color:white;
+}
+
+div.note h2 {color:white;}
+
+div.note a:visited, div.tip a:visited, div.important a:visited, div.caution a:visited, div.warning a:visited, div.note a:link, div.tip a:link, div.important a:link, div.caution a:link, div.warning a:link {
+    color: #f7f2d0;
+}
+
+#.docnav li.next a strong {background-image:url(../images/org/hibernate/docbook/next.png);}
+#.docnav li.previous a strong {background-image:url(../images/org/hibernate/docbook/prev.png);}
+#.docnav li.home a strong {background-image:url(../images/org/hibernate/docbook/home.png);}
+#.docnav li.up a strong {background-image:url(../images/org/hibernate/docbook/up.png);}
+
+.docnav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	padding-bottom: 0.5em;
+}
+.docnav .previous a strong { padding-right: 1em; }
+.docnav .next a strong { padding-right: 1em; }
+
+.mediaobject {
+	background-color: #C0C0C0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0em 0em 0em 0em;
+	width: 480px;
+}
+.mediaobject .caption {
+	
+}
+
+.mediaobject .caption p {
+    font-family:Monaco,monospace;
+	font-size: 0.8em;
+}
+
+.article .sidebar {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.article .sidebar .title {
+	font-size: 1.313em;  
+	margin-bottom: 1.238em;
+	font-weight: normal; 
+	font-family:Georgia, serif;
+}
+
+.article .title + p {
+	text-indent: 0;
+}
+
+.article .sidebar + p {
+	padding-top: 1em;
+}

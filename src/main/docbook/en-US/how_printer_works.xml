@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article>
+  <articleinfo>
+    <title>How the printer works</title>
+  </articleinfo>
+
+  <para>This 3D printer builds objects by adding plastic material layer by
+  layer until the object (also called printed part) is finished. The printer
+  has a frame and three axes: X-axis (moves left-to-right), Y-axis (moves
+  front-to-back) and Z-axis (moves up-and-down.) The
+  <emphasis>extruder</emphasis> sits on the X-axis and feeds and melts plastic
+  <emphasis>filament</emphasis>. The lowest part of the extruder is the
+  <emphasis>extruder head</emphasis>, here the plastic is melted and
+  <emphasis>extruded</emphasis> through a tiny hole with a diameter of less
+  than 1mm. To print objects the electronics of the printer steer the three
+  axes so that the extruder head is at the right spot to add plastic to the
+  printed part. The three axes together with the extruder is called the
+  <emphasis>Cartesian robot</emphasis>.</para>
+
+  <para>The printer is usually controlled by a PC with special software
+  installed. In this software a solid model is loaded (these are called STL
+  files) that gets converted to G-code<footnote>
+      <para>G-code is a standard language for CNC machines that consists of a
+      sequence of movement commands.</para>
+    </footnote>.This G-code is sent to the electronics over USB and tells the
+  robot what movements to make. At the end of all of these movements the
+  modelled part should have been printed. Alternatively the same software can
+  convert the model to G-code and save these codes on a SD-card. If the
+  electronics of your printer is equipped with a SD-card reader you can print
+  parts without the need to have a PC connected during the entire print
+  job.</para>
+
+  <sidebar>
+    <title>Introduction video</title>
+
+    <para>This is a good time to watch the excellent 15 minute <ulink
+    url="http://tinyurl.com/prusa-intro">introduction video</ulink> on the
+    RepRap Prusa Mendel 3D printer.</para>
+  </sidebar>
+</article>

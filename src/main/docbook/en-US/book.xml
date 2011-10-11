@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns:xi="http://www.w3.org/2001/XInclude">
+  <bookinfo>
+    <title>Building Your Own 3D Printer</title>
+
+    <subtitle>Introduction</subtitle>
+
+    <copyright>
+      <year>2011</year>
+
+      <holder>Steven Devijver</holder>
+    </copyright>
+
+    <legalnotice>
+      <para>Building Your Own 3D Printer by Steven Devijver is licensed under
+      a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
+      License.</para>
+    </legalnotice>
+
+    <author>
+      <firstname>Steven</firstname>
+
+      <surname>Devijver</surname>
+    </author>
+  </bookinfo>
+
+  <xi:include href="introduction.xml" />
+
+  <xi:include href="how_printer_works.xml" />
+
+  <xi:include href="parts_of_printer.xml" />
+</book>

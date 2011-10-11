@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article>
+  <articleinfo>
+    <title>Introduction</title>
+  </articleinfo>
+
+  <para>Home-built 3D printers are booming. In 2006 there were no such
+  printers and 5 years later there are tens of thousands. There are currently
+  hundreds of thousands of people wanting to start their own build waiting for
+  the right moment to get started.</para>
+
+  <para>The project that single-handily propelled home-built 3D printers out
+  of nowhere is RepRap. It’s an open-source project meaning that all the
+  information and design plans you’ll need are available free for all.
+  Building a 3D printer yourself is a huge undertaking. You can build it for
+  less than $500 or €500 but months might go by between getting started and
+  printing your first part.</para>
+
+  <para>Building a 3D printer is very hands-on and will require all your
+  technical skills. There isn’t really any void that needs to be filled since
+  there are enough people and good information online to answer your questions
+  and help you out. Still there hasn’t yet appeared one book that guides you
+  through building your own 3D printer. </para>
+
+  <para>These are the sections of this book:</para>
+
+  <itemizedlist>
+    <listitem>
+      <para>How a RepRap 3D printer works</para>
+    </listitem>
+
+    <listitem>
+      <para>Parts of the printer</para>
+    </listitem>
+
+    <listitem>
+      <para>A word on the most commonly used plastics</para>
+    </listitem>
+
+    <listitem>
+      <para>Tools and skills required</para>
+    </listitem>
+
+    <listitem>
+      <para>Software required to run a RepRap 3D printer</para>
+    </listitem>
+
+    <listitem>
+      <para>Buyer’s guide</para>
+    </listitem>
+
+    <listitem>
+      <para>Links to build instructions</para>
+    </listitem>
+  </itemizedlist>
+
+  <para>This book is not a replacement for build instructions. There are
+  excellent and unambiguous build instructions available in written form, as
+  visual instructions and videos. Instead this book has been designed to
+  prepare you before you start building.</para>
+
+  <mediaobject id="image1">
+    <imageobject>
+      <imagedata fileref="images/working_prusa.jpg" />
+    </imageobject>
+
+    <caption><para>Image 1: a working RepRap Prusa Mendel 3D printer (<ulink
+    url="http://reprap.org/wiki/File:Assembled-prusa-mendel.jpg">source</ulink>)</para></caption>
+  </mediaobject>
+
+  <para><link linkend="image1">Image 1</link> shows a fully assembled working
+  home-built 3D printer. It is called RepRap Prusa Mendel and it is the
+  printer this book will help you to build yourself. It costs about $500 or
+  €500 in parts. You can buy this printer as a kit but then you will pay at
+  least double this price. Many people source the individual parts themselves
+  and once they receive them get started on their build.</para>
+</article>

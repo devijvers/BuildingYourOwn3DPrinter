@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article>
+  <articleinfo>
+    <title>Parts of the printer</title>
+  </articleinfo>
+
+  <section>
+    <title>Frame</title>
+
+    <mediaobject id="image2">
+      <imageobject>
+        <imagedata fileref="images/prusa_frame.jpg" />
+      </imageobject>
+
+      <caption><para>Image 2: empty RepRap Prusa Mendel frame. Notice the
+      various printed parts that keep the frame together. (<ulink
+      url="http://printrbot.com/2011/03/07/prusa-medel-sae/">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>The frame gives the printer its stiffness. The three axes of the
+    robot will be added to this frame. The frame consists of threaded rods
+    connected together with printed parts (these are called the
+    vertices.)</para>
+
+    <sidebar>
+      <title>RepRap: the printer that can print its own parts</title>
+
+      <para>The Rep in RepRap stands for reproduction. RepRap printers are
+      designed in such a way that they can print their own parts. As soon as
+      you’ve got your printer working you can print parts for a new printer or
+      you can start printing various improvements on the standard design.
+      RepRap owners regularly sell the printed parts required to build new
+      printers on ebay.</para>
+    </sidebar>
+
+    <para>Apart from the vertices the frame also contains printed parts to
+    hold and control the Y-axis and Z-axis. On the top left and top right you
+    can see the printed parts that will hold the stepper motors of the
+    Z-axis.</para>
+
+    <mediaobject id="image3">
+      <imageobject>
+        <imagedata fileref="images/prusa_frame_with_smooth_rods.jpg" />
+      </imageobject>
+
+      <caption><para>Image 3: RepRap Prusa Mendel frame with smooth rods for
+      Y-axis and Z-axis mounted (<ulink
+      url="http://dustsreprap.blogspot.com/2011/03/building-prusa-mendel.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>On <link linkend="image3">image 3</link> you can see the frame with
+    the smooth rods added for the Y-axis (the horizontal rods) and the Z-axis
+    (the vertical rods.)</para>
+  </section>
+
+  <section>
+    <title>Y-axis and bushings</title>
+
+    <mediaobject id="image4">
+      <imageobject>
+        <imagedata fileref="images/prusa_frame_with_y_axis.jpg" />
+      </imageobject>
+
+      <caption><para>Image 4: RepRap Prusa Mendel frame with Y-axis installed
+      (<ulink
+      url="http://julianh72.blogspot.com/2011/08/assembling-y-is-there-always-something.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>On <link linkend="image4">image 4</link> you see the print bottom
+    plate assembled on the Y-axis smooth rods. The Y-axis has one degree of
+    freedom: it can move between the front and the back of the frame. The
+    Y-axis is controlled by a belt attached to a stepper motor with pulley
+    that you can also see on the image. The print bottom plate has four
+    bushings attached that have been glued to the print bottom plate.</para>
+
+    <para>The RepRap axes - like many CNC machines - move over smooth rods
+    with bushings or more recently with linear bearings.</para>
+
+    <para>Bushings are actually plain bearings. They slide over smooth rods
+    and provide almost no friction when moving up and down the rods. Usually
+    plain bearings are used to turn around a cylinder (or to have the cylinder
+    turn inside.) On the RepRap the bushings don’t turn, instead they linearly
+    move up and down the smooth rods following an imaginary line on the rods.
+    </para>
+
+    <para>Linear bearings have little balls inside and provide free motion in
+    one direction. Both bushings and linear bearings can be either printed or
+    sourced as metal parts. Metal bushings are typically made from brass or
+    another soft metal. RepRap designs that use linear bearings typically use
+    LM8UU metal bearings. The standard RepRap Prusa Mendel design uses
+    bushings that are more than good enough for the purpose. Some people
+    believe a RepRap printer looks more cool when fitted with LM8UU linear
+    bearings (but this drives up the price.) </para>
+
+    <sidebar>
+      <title>Home-made 3D printers are meant to be customized</title>
+
+      <para>If you would like linear bearings on your printer then by all
+      means go ahead and print the parts<footnote>
+          <para>You can find the X-axis parts with linear bearings for a
+          RepRap Prusa Mendel <ulink
+          url="http://www.thingiverse.com/thing:9936">here</ulink>.</para>
+        </footnote>!</para>
+    </sidebar>
+
+    <mediaobject id="image5">
+      <imageobject>
+        <imagedata fileref="images/brass_bushings.jpg" />
+      </imageobject>
+
+      <caption><para>Image 5: brass bushings inserted in printed parts (<ulink
+      url="http://www.wirelessreprap.com/2011/06/build-has-started.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <mediaobject id="image6">
+      <imageobject>
+        <imagedata fileref="images/printed_linear_bearing.jpg" />
+      </imageobject>
+
+      <caption><para>Image 6: printed linear bearing (<ulink
+      url="http://www.flickr.com/photos/watsdesign/6069398011">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>Some people use felt bushings. These are printed bushings with a
+    small piece of felt glued inside the bushings. Felt cloth moves very
+    smoothly over a smooth bar. <link linkend="image7">Image 7</link> below
+    shows a printed part with felt bushings:</para>
+
+    <mediaobject id="image7">
+      <imageobject>
+        <imagedata fileref="images/felt_bushings.jpg" />
+      </imageobject>
+
+      <caption><para>Image 7: felt bushings glued on a printed part (<ulink
+      url="http://www.flickr.com/photos/prusajr/5582691322/">source</ulink>)</para></caption>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Z-axis and Y-axis</title>
+
+    <mediaobject id="image8">
+      <imageobject>
+        <imagedata fileref="images/prusa_frame_with_all_axes.jpg" />
+      </imageobject>
+
+      <caption><para>Image 8: RepRap Prusa Mendel frame with X-axis, Y-axis
+      and Z-axis installed (<ulink
+      url="http://buggerit.blogspot.com/2011/07/reprap-milestone-fame-and-xyz.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>On <link linkend="image8">image 8</link> you can see a RepRap Prusa
+    Mendel frame with Y-axis, Z-axis and X-axis assembled. The Z-axis and
+    Y-axis are actually part of one construction. The Z-axis moves the X-axis
+    up and down the frame. The X-axis moves the extruder left and right within
+    the frame.</para>
+
+    <mediaobject id="image9">
+      <imageobject>
+        <imagedata fileref="images/prusa_x_idler_and_x_motor.jpg" />
+      </imageobject>
+
+      <caption><para>Image 9: X-end idler part on the left-hand side, X-end
+      motor part on the right-hand side (source unknown)</para></caption>
+    </mediaobject>
+
+    <para>The Z-and-X axis construction consists of two printed parts called
+    the X-end idler (left <link linkend="image9">image 9</link>) and X-end
+    motor (right <link linkend="image9">image 9</link>). The X-end idler has
+    two vertical sections: a square open box and a hexagon structure. In the
+    square open box two bushings are glued. This box serves as a guide for the
+    vertical smooth rod. In the hexagon structure two M8 bolts and a spring
+    are mounted. A threaded rod is turned into these bolts. This threaded rod
+    is also connected to the stepper motor on the top of the frame. The
+    stepper motor will turn the threaded rod around its axis that in turn will
+    make the X-end idler move up and down. You can see the assembled X-end
+    idler on <link linkend="image10">image 10</link>:</para>
+
+    <mediaobject id="image10">
+      <imageobject>
+        <imagedata fileref="images/prusa_x_idler_assembled_detail.jpg" />
+      </imageobject>
+
+      <caption><para>Image 10: assembled X-end idler (<ulink
+      url="http://reprap-fab.org/product_info.php?products_id=51">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>The X-end motor has the same two sections and is assembled in a
+    similar way. As you’ve noticed on the images the Z-axis is controlled by
+    two stepper motors. It turns out it’s both cheaper and improves accuracy
+    to have two stepper motors on the Z-axis instead of one motor and a belt
+    (mainly because the later requires a much more complicated construction
+    and an expensive belt.) The Y-axis and X-axis are controlled by one motor
+    and a belt, here two motors don’t make sense.</para>
+  </section>
+
+  <section>
+    <title>Extruder</title>
+
+    <para>The RepRap Prusa Mendel is typically equiped with a Wade’s geared
+    extruder<footnote>
+        <para>You can find the designs for the Wade's geared extruder <ulink
+        url="http://www.thingiverse.com/thing:1794">here</ulink></para>
+      </footnote>. This extruder consists of two parts: a cold top part that
+    feeds the platic filament and a hot bottom part that melts and extrudes
+    the plastic. These two parts are commonly called the Wade extruder (the
+    cold part) and the hot-end (the hot part).</para>
+
+    <mediaobject id="image11">
+      <imageobject>
+        <imagedata fileref="images/wade_extruder_assembled.jpg" />
+      </imageobject>
+
+      <caption><para>Image 11: Wade's geared extruder (<ulink
+      url="http://jsrreprap.blogspot.com/2011/06/wades-extruder-build.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>The Wade extruder consists of a large gear that is driven by a
+    stepper motor. This large gear drives a bolt that pulls the plastic
+    filament and pushes it into the hot-end where the plastic melts. </para>
+
+    <para>The hot-end is usually a brass bolt with a hole drilled down its
+    vertical axis. This screw is called a heater barrel. There are two sizes
+    of filament available: 3mm wide and 1.75mm wide. The hole drilled in your
+    heater barrel will have to match the size of your filament! At the tip of
+    the heat barrel the exit hole narrows down to less than 1mm (typically
+    0.5mm.) </para>
+
+    <para>Two methods exist for heating the hot-end: using a resistor or using
+    a NiChrome wire. A NiChrome wire is the easiest to get started since you
+    will only need a heater barrel with a nozzle. A resistor requires a heater
+    block that is screwed onto the heater barrel. </para>
+
+    <para><link linkend="image12">Image 12</link> shows a heater block with a
+    resistor installed. The heater block is screwed into a heater barrel:
+    </para>
+
+    <mediaobject id="image12">
+      <imageobject>
+        <imagedata fileref="images/heater_block_with_heater_barrel.jpg" />
+      </imageobject>
+
+      <caption><para>Image 12: heater block with resistor installed (<ulink
+      url="http://www.keegan.org/reprapblog/archives/2418">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para><link linkend="image13">Image 13</link> shows a heater barrel
+    wrapped with NiChome wire: </para>
+
+    <mediaobject id="image13">
+      <imageobject>
+        <imagedata fileref="images/heater_barrel_nichrome_wire.jpg" />
+      </imageobject>
+
+      <caption><para>Image 13: heater barrel wrapped with NiChrome wire (the
+      assembly shown in this image is not finished) (<ulink
+      url="http://wiki.makerbot.com/plastruder-mk4-assembly">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>A hot-end has three more crucial components: a thermistor to measure
+    the temperature, a heat barrier to separate the hot-end from the cold-end
+    (without this the cold-end would melt) and the nozzle where the melted
+    plastic flows out of the heater barrel. </para>
+
+    <para>The thermistor is connected to the electronics board - just like the
+    resistor or NiChrome wire - and allows the electronics to measure and
+    regulate the temperature of the heater barrel. The heater barrel operates
+    at a configurable temperature, without the thermistor that temperature
+    could not be reached and held. </para>
+
+    <para>The heat barrier prevents the heat from the heater barrel to rise to
+    the cold part. The cold part consists of printed parts and these would
+    melt if they became too hot. Typically PEEK is used as a heat barrier.
+    PEEK can resist high temperature and transfers very little heat. PEEK
+    however has a number of disadvantages: it’s not easy to find in the format
+    suitable for use on an extruder, it’s pretty expensive as well and it
+    requires a PFTE tube inside to help the flow of filament. PFTE tube can be
+    difficult to find as well. </para>
+
+    <para>At least one person has assembled an extruder where PEEK and PFTE
+    was replaced with a piece of bamboo<footnote>
+        <para>Instructions for bamboo as heat barrier <ulink
+        url="http://garyhodgson.com/reprap/2011/05/bamboo-as-alternative-to-peek-or-ptfe/">here</ulink>.</para>
+      </footnote>. Bamboo has the same properties as PEEK: resists high
+    temperature and transfers very little heat. It is however much cheaper and
+    much easier to find. </para>
+
+    <para>The nozzle is the most important part of the hot-end. The nozzle is
+    the end of the heater barrel where the melted plastic is extruded. The
+    nozzle needs to have a sharp enough tip and a central hole that is less
+    than 1mm (typically 0.5mm.) <link linkend="image14">Image 14</link> shows
+    a heater barrel with nozzle:</para>
+
+    <mediaobject id="image14">
+      <imageobject>
+        <imagedata fileref="images/heater_barrel.jpg" />
+      </imageobject>
+
+      <caption><para>Image 14: a heater barrel. Suitable for either NiChrome
+      wire or heater block (<ulink
+      url="http://icanbuild.it/reprap/reprap-hot-end-from-a-threaded-brass-rod/">source</ulink>)</para></caption>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>X-carriage</title>
+
+    <para>The assembled extruder - including cold-end, heat barrier and
+    hot-end - is mounted on the X-axis carriage. <link linkend="image15">Image
+    15</link> below shows an assembled X-axis with two smooth rods, the X-end
+    idler and X-end motor printed parts and the printed X-carriage:</para>
+
+    <mediaobject id="image15">
+      <imageobject>
+        <imagedata fileref="images/prusa_x_axis.jpg" />
+      </imageobject>
+
+      <caption><para>Image 15: assembled X-axis with two smooth rods, the
+      X-end idler and X-end motor printed parts and the printed X-carriage
+      (<ulink
+      url="http://richrap.blogspot.com/2011/08/pimp-my-mendel-how-to-build-up-lm8uu.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>The X-carriage can use bushings or linear bearings. The X-carriage
+    is controlled by one stepper motor and a belt. <link
+    linkend="image16">Image 16</link> shows an assembled Wade’s geared
+    extruder mounted on the X-carriage. Notice the belt in the
+    background.</para>
+
+    <mediaobject id="image16">
+      <imageobject>
+        <imagedata fileref="images/prusa_x_carriage_with_extruder.jpg" />
+      </imageobject>
+
+      <caption><para>Image 16: assembled Wade's geared extruder mounted on the
+      X-carriage. Notice the belt in the background (<ulink
+      url="http://picasaweb.google.com/112326829741416086316/PrusaMendel">source</ulink>)</para></caption>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Print plate</title>
+
+    <para>Printed parts are printed on the print plate. The three axes move
+    together so that the nozzle can move above the print plate in an area of
+    200mm wide by 200mm deep by 100mm high. </para>
+
+    <para>The print plate actually consists of two plates: the print bottom
+    plate that is mounted on the X-axis smooth rods with bushings or linear
+    bearings and the print top plate that is mounted on the bottom plate and
+    that forms the print surface. </para>
+
+    <para>The top print plate must be level! The top print plate is mounted
+    with fours springs slid over four screws so that it can be easily
+    adjusted. <link linkend="image17">Image 17</link> shows both print plates
+    one stacked on top of the other. The springs are clearly visible. The
+    bottom print plate is mounted on the X-axis smooth rods with printed
+    bushings. </para>
+
+    <mediaobject id="image17">
+      <imageobject>
+        <imagedata fileref="images/print_plates.jpg" />
+      </imageobject>
+
+      <caption><para>Image 17: top print plate stack on bottom print plate.
+      The springs are clearly visible. The bottom print plate is mounted on
+      the X-axis smooth rods with printed bushings (<ulink
+      url="http://picasaweb.google.com/112326829741416086316/PrusaMendel">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>A popular add-on for your printer is the heated bed. These
+    significantly reduce the amount of <emphasis>warping</emphasis> on printed
+    parts, especially on the lower layers. Warping is caused by the uneven
+    cooling of outer and inner sections of a printed part. The material at the
+    outside of a part will cool and thus shrink faster than the material
+    inside. This will cause the cooler material to <emphasis>warp</emphasis>
+    or bend while the hot material won’t<footnote>
+        <para>See this excellent <ulink
+        url="http://capolight.wordpress.com/2010/07/25/warping-fundamentals/">guide</ulink>
+        for more details on warping</para>
+      </footnote>. This uneven shrinking will cause straight edges to bend and
+    might cause structural failure in parts. Warping is especially a problem
+    for the lower layers of a part since the print plate will cool those
+    layers much faster than higher layers. </para>
+
+    <para>The bottom section of the left-hand part on <link
+    linkend="image18">image 18</link> below clearly shows warping while the
+    identical right-hand part doesn’t:</para>
+
+    <mediaobject id="image18">
+      <imageobject>
+        <imagedata fileref="images/warping.jpg" />
+      </imageobject>
+
+      <caption><para>Image 18: left-hand part clearly shows warping in bottom
+      section (<ulink
+      url="http://builders.reprap.org/2009/09/pla-vs-abs-warping.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>The solution is to print on a heated bed so that the entire lower
+    section of a part is kept at the same temperature. A heatbed can heat the
+    top print plate up to 100C. <link linkend="image19">Image 19</link> shows
+    a heatbed installed on a RepRap Prusa Mendel printer.</para>
+
+    <mediaobject id="image19">
+      <imageobject>
+        <imagedata fileref="images/prusa_heatbed.jpg" />
+      </imageobject>
+
+      <caption><para>Image 19: heatbed mounted on RepRap Prusa Mendel top
+      print plate (<ulink
+      url="http://repraprast.blogspot.com/2011/01/new-z-axis-couplers-and-hot-bed-mount.html">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>Usually the heatbed is turned off after the first ten or so layers
+    have been printed. This way the lower section of the printed part can cool
+    down evenly together with the heatbed while the remained of the part is
+    still being printed. A heatbed can either be bought or home-made. Buying
+    is of course easier but building it yourself is feasible and
+    cheaper<footnote>
+        <para>See these <ulink
+        url="http://www.thingiverse.com/thing:12262">instructions</ulink> for
+        building your own heatbed</para>
+      </footnote>. When you install a heatbed be sure to check the temperature
+    of the transistor on your electronics board. If it gets very hot you might
+    have to install a little heat sink (you can find those very cheap on ebay
+    or in your local electronics shop.)</para>
+
+    <sidebar>
+      <title>Warning on installing heat sinks</title>
+
+      <para>Whenever you install a heat sink on any electronic component
+      always put heat paste between the component and the heat sink. With heat
+      paste the component and heat sink will warm up more or less evenly.
+      Without heat paste the component won’t be able to transfer the majority
+      of its heat to the heat sink (air transfers heat poorly.) You can find
+      heat paste cheaply on ebay. Never use glue instead of heat paste!</para>
+    </sidebar>
+  </section>
+
+  <section>
+    <title>Electronics</title>
+
+    <para>The electronics board controls the printing process. Several
+    electronics options exist for RepRap printers (they are all open-source.)
+    Currently the most popular are: </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>RAMPS, a DIY shield board for Arduino MEGA</para>
+      </listitem>
+
+      <listitem>
+        <para>Sanguinololu, an all-in-one DIY board with microprocessor on
+        board</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>The RepRap electronics board has several functions:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Process G-code instructions.</para>
+      </listitem>
+
+      <listitem>
+        <para>Control the four stepper motor controllers (there are five
+        stepper motors on a RepRap Prusa Mendel but both Z-axis motors are
+        connected to the same stepper motor controller.)</para>
+      </listitem>
+
+      <listitem>
+        <para>Control the temperature of the hot-end and monitor the hot-end
+        thermistor.</para>
+      </listitem>
+
+      <listitem>
+        <para>Monitor the end-stops (end-stops are used for homing the three
+        axes, see later section.)</para>
+      </listitem>
+
+      <listitem>
+        <para>Control the temperature of the heated bed and monitor the heated
+        bed thermistor (the heated bed is optional.)</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>The electronics board is connected to the PC using a USB-to-serial
+    converter. The Arduino used with the RAMPS board has such a converter
+    built-in, so does the Sanguinololu board. </para>
+
+    <para>The RAMPS electronics board has been around longer than the
+    Sanguinololu and has seen regular updates. RAMPS is a shield board that
+    needs to be connected to an Arduino MEGA 1280 or 2560 board (or a clone
+    board.) The RAMPS has these additional features: </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>One extra heater / thermistor channel (three in total)</para>
+      </listitem>
+
+      <listitem>
+        <para>Optional SD card reader</para>
+      </listitem>
+    </itemizedlist>
+
+    <para><link linkend="image20">Image 20</link> shows a RAMPS board mounted
+    on a Arduino MEGA board with four Pololu stepper motor controller boards
+    installed:</para>
+
+    <mediaobject id="image20">
+      <imageobject>
+        <imagedata fileref="images/RAMPS.jpg" />
+      </imageobject>
+
+      <caption><para>Image 20: an assmebled RAMPS board mounted on a Arduino
+      MEGA board with four Pololu stepper motor controller boards installed
+      (<ulink
+      url="http://reprap.org/wiki/File:RampsStandardPinHeaders.jpg">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para>The Sanguinololu board is a more recent addition. It doesn’t offer
+    the extra thermal channel of the RAMPS and connecting an SD reader is more
+    difficult. However, all electronics are contained on one board and hence
+    doesn’t require an Arduino MEGA board. This makes the Sanguinololu cheaper
+    than the RAMPS. A complete RAMPS DIY kit including Arduino MEGA clone and
+    four Pololu stepper controllers will typically cost about $100 or €100. A
+    complete Sanguinololu DIY kit will typically only cost about $80 or €80.
+    </para>
+
+    <para>A few things have to be taken into account though. When building
+    your own Sanguinololu you will have to solder a very small chip<footnote>
+        <para><ulink
+        url="http://www.youtube.com/watch?v=bvo8Xj_yn3w">Instructions</ulink>
+        on how to solder the small chip on the Sanguinololu board</para>
+      </footnote> (the USB-to-serial bridge). Also, you should make sure the
+    ATMega microprocessor comes with the Sanguinololu boot loader installed.
+    If this is not the case you will have to install this boot loader yourself
+    and that is pretty complicated<footnote>
+        <para>See these <ulink
+        url="http://reprap.org/wiki/Sanguinololu#Bootloader">instructions</ulink>
+        for loading the Sanguinololu boot loader</para>
+      </footnote>. Ask your vendor in case you are not sure whether or not the
+    bootloader is pre-loaded.</para>
+
+    <para>Although both the RAMPS and Sanguinololu boards have been designed
+    to be assembled by hand the PCB’s cannot be etched at home. Actually, the
+    Sanguinololu board can’t be etched at home at all, RAMPS boards versions
+    1.25 or earlier can be etched at home with some tweaks<footnote>
+        <para>See <ulink
+        url="http://reprap.org/wiki/Arduino_Mega_Pololu_Shield#Summary">here</ulink>
+        for details on how to etch a RAMPS board yourself</para>
+      </footnote>.</para>
+
+    <para>If you want to follow the path of least resistance you should go for
+    a RAMPS board. But maybe you like the Sanguinololu’s small size and lower
+    price. <link linkend="image21">Image 21</link> shows an assembled
+    Sanguinololu board with four Pololu stepper controller boards
+    installed:</para>
+
+    <mediaobject id="image21">
+      <imageobject>
+        <imagedata fileref="images/Sanguinololu.jpg" />
+      </imageobject>
+
+      <caption><para>Image 21: assembled Sanguinololu board with four Pololy
+      stepper controller boards installed (<ulink
+      url="http://forums.reprap.org/read.php?94,94731">source</ulink>)</para></caption>
+    </mediaobject>
+  </section>
+</article>
