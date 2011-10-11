@@ -86,3 +86,13 @@ stageStyles.dependsOn "clean", ":styles:jar"
 task wrapper(type: Wrapper) {
     gradleVersion = '1.0-milestone-3'
 }
+
+def appengine_project = "appengine"
+
+task publish << {
+    def todir = "${appengine_project}/book"
+    ant.mkdir dir: todir
+    ant.copy(todir: todir) {
+        fileset dir:"build/docbook/publish/en-US/html_single"
+    }
+}
