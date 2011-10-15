@@ -29,4 +29,8 @@
   <xi:include href="how_printer_works.xml" />
 
   <xi:include href="parts_of_printer.xml" />
+
+  <xi:include href="plastics.xml" />
+
+  <xi:include href="tools_skills.xml" />
 </book>

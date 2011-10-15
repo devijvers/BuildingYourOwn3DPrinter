@@ -82,17 +82,17 @@
     and provide almost no friction when moving up and down the rods. Usually
     plain bearings are used to turn around a cylinder (or to have the cylinder
     turn inside.) On the RepRap the bushings don’t turn, instead they linearly
-    move up and down the smooth rods following an imaginary line on the rods.
-    </para>
+    move up and down the smooth rods following an imaginary line on the
+    rods.</para>
 
     <para>Linear bearings have little balls inside and provide free motion in
     one direction. Both bushings and linear bearings can be either printed or
-    sourced as metal parts. Metal bushings are typically made from brass or
-    another soft metal. RepRap designs that use linear bearings typically use
-    LM8UU metal bearings. The standard RepRap Prusa Mendel design uses
-    bushings that are more than good enough for the purpose. Some people
-    believe a RepRap printer looks more cool when fitted with LM8UU linear
-    bearings (but this drives up the price.) </para>
+    sourced as metal parts. Metal bushings are made from brass as it's the
+    only metal that has low friction and is self-lubricating. RepRap designs
+    that use linear bearings typically use LM8UU metal bearings. The standard
+    RepRap Prusa Mendel design uses bushings that are more than good enough
+    for the purpose. Some people believe a RepRap printer looks more cool when
+    fitted with LM8UU linear bearings (but this drives up the price.)</para>
 
     <sidebar>
       <title>Home-made 3D printers are meant to be customized</title>
@@ -219,23 +219,23 @@
 
     <para>The Wade extruder consists of a large gear that is driven by a
     stepper motor. This large gear drives a bolt that pulls the plastic
-    filament and pushes it into the hot-end where the plastic melts. </para>
+    filament and pushes it into the hot-end where the plastic melts.</para>
 
     <para>The hot-end is usually a brass bolt with a hole drilled down its
     vertical axis. This screw is called a heater barrel. There are two sizes
     of filament available: 3mm wide and 1.75mm wide. The hole drilled in your
     heater barrel will have to match the size of your filament! At the tip of
     the heat barrel the exit hole narrows down to less than 1mm (typically
-    0.5mm.) </para>
+    0.5mm.)</para>
 
     <para>Two methods exist for heating the hot-end: using a resistor or using
     a NiChrome wire. A NiChrome wire is the easiest to get started since you
     will only need a heater barrel with a nozzle. A resistor requires a heater
-    block that is screwed onto the heater barrel. </para>
+    block that is screwed onto the heater barrel.</para>
 
     <para><link linkend="image12">Image 12</link> shows a heater block with a
-    resistor installed. The heater block is screwed into a heater barrel:
-    </para>
+    resistor installed. The heater block is screwed into a heater
+    barrel:</para>
 
     <mediaobject id="image12">
       <imageobject>
@@ -247,7 +247,7 @@
     </mediaobject>
 
     <para><link linkend="image13">Image 13</link> shows a heater barrel
-    wrapped with NiChome wire: </para>
+    wrapped with NiChome wire:</para>
 
     <mediaobject id="image13">
       <imageobject>
@@ -262,13 +262,13 @@
     <para>A hot-end has three more crucial components: a thermistor to measure
     the temperature, a heat barrier to separate the hot-end from the cold-end
     (without this the cold-end would melt) and the nozzle where the melted
-    plastic flows out of the heater barrel. </para>
+    plastic flows out of the heater barrel.</para>
 
     <para>The thermistor is connected to the electronics board - just like the
     resistor or NiChrome wire - and allows the electronics to measure and
     regulate the temperature of the heater barrel. The heater barrel operates
     at a configurable temperature, without the thermistor that temperature
-    could not be reached and held. </para>
+    could not be reached and held.</para>
 
     <para>The heat barrier prevents the heat from the heater barrel to rise to
     the cold part. The cold part consists of printed parts and these would
@@ -277,7 +277,7 @@
     however has a number of disadvantages: it’s not easy to find in the format
     suitable for use on an extruder, it’s pretty expensive as well and it
     requires a PFTE tube inside to help the flow of filament. PFTE tube can be
-    difficult to find as well. </para>
+    difficult to find as well.</para>
 
     <para>At least one person has assembled an extruder where PEEK and PFTE
     was replaced with a piece of bamboo<footnote>
@@ -285,7 +285,7 @@
         url="http://garyhodgson.com/reprap/2011/05/bamboo-as-alternative-to-peek-or-ptfe/">here</ulink>.</para>
       </footnote>. Bamboo has the same properties as PEEK: resists high
     temperature and transfers very little heat. It is however much cheaper and
-    much easier to find. </para>
+    much easier to find.</para>
 
     <para>The nozzle is the most important part of the hot-end. The nozzle is
     the end of the heater barrel where the melted plastic is extruded. The
@@ -345,19 +345,19 @@
 
     <para>Printed parts are printed on the print plate. The three axes move
     together so that the nozzle can move above the print plate in an area of
-    200mm wide by 200mm deep by 100mm high. </para>
+    200mm wide by 200mm deep by 100mm high.</para>
 
     <para>The print plate actually consists of two plates: the print bottom
     plate that is mounted on the X-axis smooth rods with bushings or linear
     bearings and the print top plate that is mounted on the bottom plate and
-    that forms the print surface. </para>
+    that forms the print surface.</para>
 
     <para>The top print plate must be level! The top print plate is mounted
     with fours springs slid over four screws so that it can be easily
     adjusted. <link linkend="image17">Image 17</link> shows both print plates
     one stacked on top of the other. The springs are clearly visible. The
     bottom print plate is mounted on the X-axis smooth rods with printed
-    bushings. </para>
+    bushings.</para>
 
     <mediaobject id="image17">
       <imageobject>
@@ -383,7 +383,7 @@
       </footnote>. This uneven shrinking will cause straight edges to bend and
     might cause structural failure in parts. Warping is especially a problem
     for the lower layers of a part since the print plate will cool those
-    layers much faster than higher layers. </para>
+    layers much faster than higher layers.</para>
 
     <para>The bottom section of the left-hand part on <link
     linkend="image18">image 18</link> below clearly shows warping while the
@@ -445,7 +445,7 @@
 
     <para>The electronics board controls the printing process. Several
     electronics options exist for RepRap printers (they are all open-source.)
-    Currently the most popular are: </para>
+    Currently the most popular are:</para>
 
     <itemizedlist>
       <listitem>
@@ -489,12 +489,12 @@
 
     <para>The electronics board is connected to the PC using a USB-to-serial
     converter. The Arduino used with the RAMPS board has such a converter
-    built-in, so does the Sanguinololu board. </para>
+    built-in, so does the Sanguinololu board.</para>
 
     <para>The RAMPS electronics board has been around longer than the
     Sanguinololu and has seen regular updates. RAMPS is a shield board that
     needs to be connected to an Arduino MEGA 1280 or 2560 board (or a clone
-    board.) The RAMPS has these additional features: </para>
+    board.) The RAMPS has these additional features:</para>
 
     <itemizedlist>
       <listitem>
@@ -527,8 +527,8 @@
     doesn’t require an Arduino MEGA board. This makes the Sanguinololu cheaper
     than the RAMPS. A complete RAMPS DIY kit including Arduino MEGA clone and
     four Pololu stepper controllers will typically cost about $100 or €100. A
-    complete Sanguinololu DIY kit will typically only cost about $80 or €80.
-    </para>
+    complete Sanguinololu DIY kit will typically only cost about $80 or
+    €80.</para>
 
     <para>A few things have to be taken into account though. When building
     your own Sanguinololu you will have to solder a very small chip<footnote>
@@ -568,6 +568,207 @@
       <caption><para>Image 21: assembled Sanguinololu board with four Pololy
       stepper controller boards installed (<ulink
       url="http://forums.reprap.org/read.php?94,94731">source</ulink>)</para></caption>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Stepper motors</title>
+
+    <para>There are five stepper motors on the RepRap Prusa Mendel:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>One to control the Y-axis</para>
+      </listitem>
+
+      <listitem>
+        <para>One to control the X-axis</para>
+      </listitem>
+
+      <listitem>
+        <para>Two to control the Z-axis</para>
+      </listitem>
+
+      <listitem>
+        <para>One to control the extruder</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Normally all five motors on a printer are the same but this is not
+    required except for the two motors that control the Z-axis: these must be
+    identical. The RepRap Prusa Mendel has been designed to use bipolar NEMA17
+    motors. NEMA17 determines some of the dimensions of a stepper
+    motor.</para>
+
+    <mediaobject id="image22">
+      <imageobject>
+        <imagedata fileref="images/stepper_internal.jpg" />
+      </imageobject>
+
+      <caption><para>Image 22: the internals of a stepper motor (<ulink
+      url="http://www.robotgear.com.au/Product.aspx/Details/459">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <sidebar>
+      <title>Not every NEMA17 motor is equal</title>
+
+      <para>The most important aspect of a stepper motor is its torque.
+      However, the amount of torque the motor will actually supply is also
+      determined by the stepper controller board.</para>
+    </sidebar>
+
+    <para>A stepper motor is a special kind of electric motor that is often
+    used in robotics. The motor has two sets of internal coils positioned
+    around a central teethed shaft that contains a permanent magnet. Each set
+    of coils is part of a phase. The coils the belong to the same phase will
+    generate magnetic fields with the same North-South orientation. The motors
+    used on RepRap Prusa Mendel printers have two phases. The RepRap
+    electronics board controls the stepper through micro-stepping. In this
+    mode the percentage of current is gradually changed per phase to make the
+    shaft rotate in small steps<footnote>
+        <para><ulink
+        url="http://en.nanotec.com/steppermotor_animation.html">This
+        applet</ulink> demonstrates how micro-stepping works inside a stepper
+        motor (note: the stepper motor shown in this applet is unipolar while
+        RepRap uses bipolar motors. The principles however remain the
+        same.)</para>
+      </footnote>.</para>
+  </section>
+
+  <section>
+    <title>Stepper motor controllers</title>
+
+    <para>Controlling a bipolar stepper motor is pretty complicated,
+    especially in micro-stepping mode. Unipolar stepper motors are easier to
+    control but they offer less torque for the same motor size. Special
+    stepper motor controllers have been developed that take over the
+    complexities of controlling a stepper motor. With such a controller one
+    only needs to send one signal to make one micro-step. This seriously
+    simplifies controlling the stepper motor.</para>
+
+    <para>The RepRap community has chosen to use Pololu stepper motor
+    controllers. These come in the form of a small board with one IC - the
+    Pololu stepper motor controller - and a few passive components. Pololu
+    offers both the IC and the board. This board uses very small components so
+    has to be factory assembled. In late 2010 Pololu was experiencing
+    difficulties to ship enough boards so RepRap community member Joem decided
+    to design an open-source version of this board called
+    <emphasis>StepStick</emphasis>. This board still uses the Pololu IC that
+    never was is short supply. One assembled StepStick board usually costs
+    about $10 or €10. Four StepStick boards are required for a RepRap Prusa
+    Mendel printer.</para>
+
+    <sidebar>
+      <title>Warning about StepStick board</title>
+
+      <para>RepRap community members have reported StepStick boards with
+      short-circuits in them! Obviously this might destroy both your StepStick
+      board and your electronics board. Before installing a StepStick board
+      always verify with your multi-meter there are not short-circuits on the
+      pins.</para>
+    </sidebar>
+
+    <para>When stepper motors are in operation and stand still they still use
+    current. For this reason each stepper motor controller has a potentiometer
+    to control how much current is sent to the stepper. If you send too much
+    current you might use more current than is required (and hence increase
+    your electricity bill.)</para>
+
+    <para>For this reason is it advised to close the potentiometer on each
+    stepper motor controller by turning counter-clockwise all the way and then
+    open the potentiometer about ¼ th of the way. When you discover one of
+    your steppers does not provide enough torque you can open the
+    potentiometer of that stepper motor controller at little bit further.
+    </para>
+  </section>
+
+  <section>
+    <title>End stops</title>
+
+    <para>At the start of a print job all three axes have to be moved to their
+    starting or homing position. This is the zero position of the Cartesian
+    robot. The axes can’t move any further than zero (they can’t move to a
+    negative position.)</para>
+
+    <para>To achieve this three end stops need to be installed, one for each
+    axis. A end stop needs to be installed at the position where the axis
+    shouldn’t move beyond: </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>For the X-axis this should be the position where the nozzle
+        reaches the left-hand side of the print plate.</para>
+      </listitem>
+
+      <listitem>
+        <para>For the Y-axis this should be on the back-side of the axis so
+        that the print plate is moved to the back far enough that the nozzle
+        ends up on the forward of the print plate.</para>
+      </listitem>
+
+      <listitem>
+        <para>For the Z-axis this should be the position where the nozzle
+        barely touches the print plate. When printing the software will make
+        sure the Z-axis is lifted a little before printing the first
+        layer.</para>
+      </listitem>
+    </itemizedlist>
+
+    <sidebar>
+      <title>When to position your endstops</title>
+
+      <para>Position your endstops correctly after you've calibrated your
+      X-Y-and-Z axes. After calibration the command "move 1mm" will actually
+      move one mm. Before calibration you can't be certain where your axis
+      will end up.</para>
+    </sidebar>
+
+    <para>You can choose between two kinds of end stops: optical or mechanical
+    switch. The mechanical switches are preferred since they are much cheaper,
+    easier to install and work just as well as optical end stops.</para>
+
+    <sidebar>
+      <title>Mechanical vs. optical endstops</title>
+
+      <para>Switches have a limited number of on/off cycles. However, most
+      purpose built micro-switches are rated for well over 10,000 cycles and
+      will last years<footnote>
+          <para><ulink
+          url="http://reprap.org/wiki/Mechanical_Endstop#Limitations_of_mechanical_switches">Source</ulink></para>
+        </footnote>. Optical endstops are on paper more reliable than
+      mechanical endstops but in practice they are not (todo: discuss.) You
+      should go for mechanical endstops.</para>
+    </sidebar>
+
+    <para>End stops are not required at the opposite ends. The
+    <emphasis>firmware</emphasis> you will install in the microprocessor knows
+    how far each axis is allowed to move calculated from position zero. These
+    distances can be configured.</para>
+
+    <mediaobject id="image23">
+      <imageobject>
+        <imagedata fileref="images/endstop_optical.jpg" />
+      </imageobject>
+
+      <caption><para>Image 23: an assembled optical end stop PCB (<ulink
+      url="http://www.flickr.com/photos/hoeken/2868332588/">source</ulink>)</para></caption>
+    </mediaobject>
+
+    <para><link linkend="image24">Image 24</link> shows a mechanical end stop
+    mounted on the Z-axis. Notice the nozzle in the background is hovering a
+    few centimeter above the print plate meaning the X-end idler part is
+    positioned just a little bit to high to be in this picture. From the
+    nozzle and print plate positions one can also deduce the X-axis and Y-axis
+    must be in (or near) position zero. The front of the printer frame is to
+    the right in this image.</para>
+
+    <mediaobject id="image24">
+      <imageobject>
+        <imagedata fileref="images/endstop_mechanical.jpg" />
+      </imageobject>
+
+      <caption><para>Image 24: mechanical end stop mounted on Z-axis (<ulink
+      url="http://www.thingiverse.com/thing:10838">source</ulink>)</para></caption>
     </mediaobject>
   </section>
 </article>

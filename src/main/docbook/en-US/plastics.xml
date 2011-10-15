@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article>
+  <articleinfo>
+    <title>Plastics</title>
+  </articleinfo>
+
+  <para>A RepRap 3D printer is most often used to print either of two
+  thermoplastics: ABS or PLA. The plastic material is arranged in
+  filament.</para>
+
+  <mediaobject id="image25">
+    <imageobject>
+      <imagedata fileref="images/blue_filament.jpg" />
+    </imageobject>
+
+    <caption><para>Image 25: blue filament on a spindle (<ulink
+    url="http://www.thingiverse.com/thing:12312">source</ulink>)</para></caption>
+  </mediaobject>
+
+  <para>ABS and PLA are very different plastics and they each require specific
+  printer configurations. ABS is made from petroleum and is more flexible than
+  PLA. PLA is biodegradable, is more rigid than ABS and will dissolve in
+  water. ABS is more prone to warping than PLA. Good printing results will
+  require a heatbed for ABS. For PLA you can probably get printed parts
+  without warping without a heatbed.</para>
+
+  <para>There are many different kinds of ABS and PLA. If your printer is
+  perfectly tuned for the plastic of one vendor you might need to redo your
+  configuration after you’ve switched vendors. PLA has a lower melting
+  temperature than ABS. Take into account however that the thermistor on a
+  NiChrome wire hotend typically reports lower than actual temperatures. A
+  thermistor on a heatblock typically reports higher than actual
+  temperatures.</para>
+
+  <para>Your hotend temperature, extruder speed and axes speeds all need to be
+  in harmony for good printing results. First try to get good printing results
+  at a lower extruder speed (100mm per second). Afterwards you can try to
+  increase the speed. As a rule of thumb printing quality at higher speeds
+  will be worse than at lower speeds although the degradation is usually
+  acceptable.</para>
+</article>
