@@ -122,20 +122,6 @@
       <caption><para>Image 6: printed linear bearing (<ulink
       url="http://www.flickr.com/photos/watsdesign/6069398011">source</ulink>)</para></caption>
     </mediaobject>
-
-    <para>Some people use felt bushings. These are printed bushings with a
-    small piece of felt glued inside the bushings. Felt cloth moves very
-    smoothly over a smooth bar. <link linkend="image7">Image 7</link> below
-    shows a printed part with felt bushings:</para>
-
-    <mediaobject id="image7">
-      <imageobject>
-        <imagedata fileref="images/felt_bushings.jpg" />
-      </imageobject>
-
-      <caption><para>Image 7: felt bushings glued on a printed part (<ulink
-      url="http://www.flickr.com/photos/prusajr/5582691322/">source</ulink>)</para></caption>
-    </mediaobject>
   </section>
 
   <section>
@@ -678,8 +664,8 @@
     stepper motor controller by turning counter-clockwise all the way and then
     open the potentiometer about ¼ th of the way. When you discover one of
     your steppers does not provide enough torque you can open the
-    potentiometer of that stepper motor controller at little bit further.
-    </para>
+    potentiometer of that stepper motor controller at little bit
+    further.</para>
   </section>
 
   <section>
@@ -692,7 +678,7 @@
 
     <para>To achieve this three end stops need to be installed, one for each
     axis. A end stop needs to be installed at the position where the axis
-    shouldn’t move beyond: </para>
+    shouldn’t move beyond:</para>
 
     <itemizedlist>
       <listitem>
