@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <book xmlns:xi="http://www.w3.org/2001/XInclude">
   <bookinfo>
     <title>Building Your Own 3D Printer</title>
@@ -33,4 +33,6 @@
   <xi:include href="plastics.xml" />
 
   <xi:include href="tools_skills.xml" />
+
+  <xi:include href="software.xml" />
 </book>

@@ -93,8 +93,13 @@ def appengine_project = "appengine"
 
 task publish << {
     def todir = "${appengine_project}/book"
+	ant.delete dir: todir
     ant.mkdir dir: todir
     ant.copy(todir: todir) {
         fileset dir:"build/docbook/publish/en-US/html_single"
     }
+}
+
+buildDocs.doLast {
+	tasks.publish.execute()
 }

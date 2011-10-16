@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article>
+  <articleinfo>
+    <title>RepRap software</title>
+  </articleinfo>
+
+  <para>A RepRap printer is judged by the quality of the objects it has
+  printed and secondarily the speed with which these objects can be printed.
+  The quality of the prints is determined in part by the quality of your
+  mechanical build. Another important contributor to print quality or lack
+  thereof is the software you use with your RepRap and how it has been
+  configured. The fundamental pieces of software required to run a RepRap
+  printer are discussed here.</para>
+
+  <para>You will need at least four applications installed on your computer to
+  run a RepRap Prusa Mendel 3D printer. They are:</para>
+
+  <itemizedlist>
+    <listitem>
+      <para><emphasis role="bold">Arduino software</emphasis>: this
+      application allows you to install the printer firmware onto the ATMega
+      microprocessor. This installation is required each time you want to
+      update the firmware. </para>
+    </listitem>
+
+    <listitem>
+      <para><emphasis role="bold">Firmware</emphasis>: there are several
+      firmwares available for RepRap printers. The firmware is installed on
+      the ATMega microprocessor and handles the G-code instructions received
+      from the PC. Part of the configuration of the printer has to be done in
+      the firmware.</para>
+    </listitem>
+
+    <listitem>
+      <para><emphasis role="bold">Skein software</emphasis>: the most popular
+      application to slice STL files into G-code is called Skeinforge. You
+      need this piece of software each time you want to print a part.</para>
+    </listitem>
+
+    <listitem>
+      <para><emphasis role="bold">Host software</emphasis>: there are also
+      several host application available for RepRap printers. This application
+      is responsible for communicating with the electronics of the printer
+      before and during print jobs. It prepares the printer before starting a
+      print job and then also starts the actual print jobs.</para>
+    </listitem>
+  </itemizedlist>
+
+  <para>These applications are discussed in turn below.</para>
+
+  <section>
+    <title>Arduino software for RAMPS</title>
+
+    <para>For the RAMPS electronics you need to follow the instructions for
+    installing the Arduino environment:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="http://www.arduino.cc/en/Guide/Windows">Windows
+        installation instructions</ulink></para>
+      </listitem>
+
+      <listitem>
+        <para><ulink url="http://www.arduino.cc/en/Guide/MacOSX">Mac OS X
+        installation instructions</ulink></para>
+      </listitem>
+
+      <listitem>
+        <para><ulink
+        url="http://www.arduino.cc/playground/Learning/Linux">Linux
+        installation instructions</ulink></para>
+      </listitem>
+    </itemizedlist>
+
+    <sidebar>
+      <title>COM port to communicate with your Arduino board</title>
+
+      <para>Make sure to remember or write down the COM port to which your
+      Arduino is connected. </para>
+    </sidebar>
+
+    <para>Once the Arduino board is connected to the Arduino software you can
+    skip ahead to the firmware section.</para>
+  </section>
+
+  <section>
+    <title>Arduino software for Sanguinololu</title>
+
+    <para>For the Sanguinololu board you will need to follow these Sanguino
+    installation instructions:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><ulink url="http://sanguino.cc/softwareforwindows">Windows
+        installation instructions</ulink></para>
+      </listitem>
+
+      <listitem>
+        <para><ulink url="http://sanguino.cc/softwareformac">Mac OS X
+        installation instructions</ulink></para>
+      </listitem>
+
+      <listitem>
+        <para><ulink url="http://sanguino.cc/softwareforlinux">Linux
+        installation instructions</ulink></para>
+      </listitem>
+    </itemizedlist>
+
+    <sidebar>
+      <title>COM port to communicate with your Sanguinololu board</title>
+
+      <para>Make sure to remember or write down the COM port to which your
+      Samguinololu is connected.</para>
+    </sidebar>
+
+    <para>Once the Sanguinololu board is connected to the Arduino software you
+    can follow the instructions in the firmware section.</para>
+  </section>
+
+  <section>
+    <title>Firmware</title>
+
+    <para>There are a few popular firmwares available for RepRap 3D
+    printers<footnote>
+        <para>See also the <ulink
+        url="http://reprap.org/wiki/Firmware">list</ulink> of all available
+        firmwares for RepRap printers.</para>
+      </footnote>. They are:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><ulink
+        url="https://github.com/kliment/Sprinter">Sprinter</ulink>: modern
+        firmware with support for SD cards and easy configuration</para>
+      </listitem>
+
+      <listitem>
+        <para><ulink
+        url="https://github.com/triffid/Teacup_Firmware">Teacup</ulink>:
+        claimed to be faster than Sprinter, more elaborate configuration
+        options</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Teacup is a decent alternative for Sprinter. However, because of its
+    easier configuration we advise you to get started with Sprinter.</para>
+  </section>
+</article>
