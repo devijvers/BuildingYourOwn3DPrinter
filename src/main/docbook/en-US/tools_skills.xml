@@ -94,6 +94,12 @@
     </section>
 
     <section>
+      <title>Wire snips</title>
+
+      <para>TODO</para>
+    </section>
+
+    <section>
       <title>Plumb line</title>
 
       <para>You need a plumb line a one point only during the build: when the
@@ -113,8 +119,8 @@
     <section>
       <title>Installation of Z-axis bushings</title>
 
-      <para>Depending on which kinds of bushings you're using you need
-      different kinds of tools. There a there really two categories:</para>
+      <para>Depending on which kinds of bushing holders you're using you need
+      different kinds of tools. There are really two categories:</para>
 
       <itemizedlist>
         <listitem>
@@ -126,17 +132,63 @@
           <para>Bushings integrated into the printed parts. This is generally
           referred to as the Prusa <emphasis>felt branch</emphasis>. This is
           actually a counter-intuitive name. The designer of the RepRap Prusa
-          Mendel printer - Josef Prusa - created a <emphasis>branch</emphasis>
-          with bushing holders integrated in the printed parts. The original
-          purpose was to glue small pieces of felt into these holders (felt
-          was then used as a bushing.) It is also possible to mount brass
-          bushings in these holder. Later on the parts for LM8UU bearings were
-          also added to this branch. The use of felt as a bushing never really
-          caught on and is now outdated. The bushing holders integrated into
-          the parts are still popular for use with brass bushings and LM8UU
-          linear bearings.</para>
+          Mendel printer - Josef Prusa - created a
+          <emphasis>branch</emphasis><footnote>
+              <para>A branch is like a separate track in a software
+              repository. In a branch things can be worked on in parallel
+              without affecting things in other branches.</para>
+            </footnote> with bushing holders integrated in the printed parts.
+          The original purpose was to glue small pieces of felt into these
+          holders (felt was then used as a bushing.) It is also possible to
+          mount brass bushings in these holder. Later on the parts for LM8UU
+          bearings were also added to this branch. The use of felt as a
+          bushing never really caught on and is now outdated. The bushing
+          holders integrated into the parts are still popular for use with
+          brass bushings and LM8UU linear bearings. <link
+          linkend="image29">Image 29</link> shows the X-end idler part with
+          integrated bushing holders.</para>
         </listitem>
       </itemizedlist>
+
+      <mediaobject id="image29">
+        <imageobject>
+          <imagedata fileref="images/x_end_idler_felt_branch.jpg" />
+        </imageobject>
+
+        <caption><para>Image 29: X-end idler with integrated bushing holders,
+        taken from <ulink
+        url="https://github.com/prusajr/PrusaMendel/tree/felt">Prusa felt
+        branch</ulink>.</para></caption>
+      </mediaobject>
+
+      <section>
+        <title>PLA bushings or separate bushing holders</title>
+
+        <para>You will need these tools:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Glue for attaching your PLA bushings or bushing holders the
+            X-carriage on the X-axis, the bottom print plate on the Y-axis and
+            the X-end parts on the Z-axis.</para>
+          </listitem>
+
+          <listitem>
+            <para>Table clamp when gluing the PLA bushings or bushing holders
+            to the X-end parts on the Z-axis.</para>
+          </listitem>
+        </itemizedlist>
+      </section>
+
+      <section>
+        <title>Integrated bushing holders</title>
+
+        <para>You only really need a hair dryer. You may find that inserting
+        your brass bushings or LM8UU linear bearings into the integrated
+        bushing holders is pretty difficult. If you warm them with a hair
+        dryer before inserting you will find it becomes easier. The heat makes
+        the plastic more malleable.</para>
+      </section>
     </section>
   </section>
 </article>
