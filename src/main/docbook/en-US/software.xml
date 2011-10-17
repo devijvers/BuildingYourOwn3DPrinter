@@ -168,7 +168,7 @@ url="https://github.com/triffid/Teacup_Firmware"
 ><title
 >Download Sprinter through the website</title
 ><para
->Down the latest Zip archive <ulink
+>Download the latest Zip archive <ulink
 url="https://github.com/kliment/Sprinter/zipball/master"
 >here</ulink
 >. Unpack the Zip archive.</para
@@ -321,12 +321,12 @@ url="https://github.com/kliment/Printrun/blob/master/README.md"
 ><title
 >Downloading Pronterface</title
 ><para
->Pronterface can also be downloaded in two ways.  Again, download the latest Zip archive from the website if you're not familiar with Git.</para
+>Pronterface can also be downloaded in two ways. Again, download the latest Zip archive from the website if you're not familiar with Git.</para
 ><section
 ><title
 >Download Pronterface through the website</title
 ><para
->Down the latest Zip archive <ulink
+>Download the latest Zip archive <ulink
 url="https://github.com/kliment/Printrun/zipball/master"
 >here</ulink
 >. Unpack the Zip archive.</para

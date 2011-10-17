@@ -1,3 +1,5 @@
+import javax.xml.parsers.SAXParserFactory
+
 buildscript {
     repositories {
         mavenCentral()
@@ -91,15 +93,19 @@ task wrapper(type: Wrapper) {
 
 def appengine_project = "appengine"
 
-task publish << {
-    def todir = "${appengine_project}/book"
+task publish(dependsOn: "buildDocs") << {
+    def todir = "${appengine_project}/static"
 	ant.delete dir: todir
     ant.mkdir dir: todir
     ant.copy(todir: todir) {
         fileset dir:"build/docbook/publish/en-US/html_single"
     }
-}
-
-buildDocs.doLast {
-	tasks.publish.execute()
+	def tmp_file = File.createTempFile("parsed","version");
+	try {
+		def parser = SAXParserFactory.newInstance().newSAXParser()
+		parser.parse(new File("${todir}/index.html").newInputStream(), new XmlEncoder(tmp_file.newOutputStream()))
+		ant.copy file: tmp_file, tofile: "${todir}/index.html"
+	} finally {
+		tmp_file.delete()
+	}
 }

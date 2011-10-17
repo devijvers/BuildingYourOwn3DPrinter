@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article
+><articleinfo
+><title
+>Buyer's guide</title
+></articleinfo
+><para
+>Once you’ve decided to commit yourself you’ll have to shop for parts. A RepRap printer consists of two kinds of parts:</para
+><itemizedlist
+><listitem
+><para
+>Printed parts for a RepRap Prusa Mendel</para
+></listitem
+><listitem
+><para
+>Vitamins or non-printed parts like nuts and bolts and electronics.</para
+></listitem
+></itemizedlist
+><para
+>Check out the RepRap Prusa Mendel <ulink
+url="http://reprap.org/wiki/Prusa_Mendel"
+>bill of materials</ulink
+> (BOM) to get a feel of all the parts that are required.</para
+><sidebar
+><title
+>Warning about placing your orders</title
+><para
+>Don't order anything before checking your planned purchases on the <computeroutput
+>#reprap</computeroutput
+> IRC channel. Only place your orders after the RepRap community members on the IRC channel have approved.</para
+></sidebar
+><section
+><title
+>Printed parts</title
+><para
+>In Europe printed parts can be sourced from nophead or arthx. Nophead sells his parts on <ulink
+url="http://myworld.ebay.co.uk/nophead00/?_trksid=p4340.l2559"
+>ebay</ulink
+>. Arthx can be contacted on the <computeroutput
+>#reprap</computeroutput
+> IRC channel (his handle is arthx.) Nophead is based in the UK, Arthx in Poland. </para
+><para
+>For the US also check out <ulink
+url="http://www.lulzbot.com/en/3-plastic-parts"
+>LulzBot.com</ulink
+> (based in Loveland, Colorado, USA). For both US and Europe also check <ulink
+url="http://www.emakershop.com/browse/printed-parts"
+>eMAKERshop.com</ulink
+>, a website where RepRap community members buy and sell RepRap parts.</para
+><para
+>You might also want  to check out the casted parts offerd by <ulink
+url="http://www.2printbeta.de/product_info.php?products_id=46"
+>2printbeta.de</ulink
+>. These are reportedly the only decent casted parts available.</para
+></section
+><section
+><title
+>Vitamins</title
+><section
+><title
+>Electronics</title
+><section
+><title
+>RAMPS</title
+><para
+>These vendors sell RAMPS DIY and pre-assembled kits:</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://reprapsource.com/en/shop/list/196"
+>RepRapSource.com</ulink
+> (based in Germany)</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://xyzprinters.com/23-ramps"
+>xyzprinters.com</ulink
+> (based in the Netherlands)</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://www.lulzbot.com/en/4-electronics"
+>LulzBot.com</ulink
+> (based in Loveland, Colorado, USA)</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://ultimachine.com/catalog/electronics/circuit-boards-and-kits/ramps"
+>UltiMachine.com</ulink
+> (based in South Pittsburg, USA)</para
+></listitem
+></itemizedlist
+><para
+>You can buy an Arduino MEGA 1280 or Arduino MEGA 2560 board from these vendors or on ebay. Also check ruben-ikmaak (<computeroutput
+>info [at] ikmaak [dot] nl</computeroutput
+>, based in the Netherlands) for Arduino MEGA boards.</para
+></section
+><section
+><title
+>Sanguinololu</title
+><para
+>The vendors sell Sanguinololu DIY or pre-assembled kits. For a small extra fee they will solder the SMD part for you, something which you should <link
+linkend="sanguinololu_SMD"
+> certainly not consider doing yourself</link
+>. Ask the vendor directly in case no such quotation is made on their website.</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://www.xyzprinters.com/24-sanguinololu"
+>xyzprinters.com</ulink
+> (based in the Netherlands)</para
+></listitem
+><listitem
+><para
+>ruben-ikmaak (<computeroutput
+>info [at] ikmaak [dot] nl</computeroutput
+>, based in the Netherlands)</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://www.lulzbot.com/en/4-electronics"
+>LulzBot.com</ulink
+> (based in Loveland, Colorado, USA)</para
+></listitem
+></itemizedlist
+></section
+><section
+><title
+>StepStick</title
+><para
+>TODO</para
+></section
+></section
+></section
+></article
+>

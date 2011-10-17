@@ -1,322 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
 "http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
-<article>
-  <articleinfo>
-    <title>Tools and skills</title>
-  </articleinfo>
-
-  <para>You don’t need to be an electronics buff or mechanical engineer in
-  order to build your own 3D printer. If you can screw a nut on a bolt you can
-  build this printer.</para>
-
-  <para>You also don’t need to invest large amounts of money in either parts
-  or tools. The RepRap has been designed around commonly available parts and
-  using commonly available tools.</para>
-
-  <section>
-    <title>Mechanical build</title>
-
-    <para>For the mechanical build you will need these tools and the
-    associated skills.</para>
-
-    <section>
-      <title>Wrenches and keys</title>
-
-      <itemizedlist>
-        <listitem>
-          <para>Open end wrenches: M8, M4 and M3</para>
-        </listitem>
-
-        <listitem>
-          <para>Hex keys if you’ve bought those kinds of screws</para>
-        </listitem>
-      </itemizedlist>
-    </section>
-
-    <section>
-      <title>Digital caliper</title>
-
-      <para>You can't build a RepRap and make it work without a digital
-      caliper. If you have a normal caliper put it to the side and order a
-      digital caliper. The digital caliper gives a readout of two significant
-      digits after the comma. The digital caliper is required while
-      calibrating your frame and later when calibrating your axes. You can
-      find reliable digital calipers on Amazon for $10 or €10.</para>
-
-      <mediaobject id="image26">
-        <imageobject>
-          <imagedata fileref="images/digital_caliper.jpg" />
-        </imageobject>
-
-        <caption><para>Image 26: Toolzone digital caliper (<ulink
-        url="http://www.amazon.co.uk/gp/product/B001W99N6U/ref=ox_sc_act_title_1?ie=UTF8&amp;m=A3DL2PD92D06B0">source</ulink>)</para></caption>
-      </mediaobject>
-
-      <para>There are two important tidbits to remember about digital
-      calipers:</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>When storing away your digital caliper always remove the
-          battery. These devices never really shut down.</para>
-        </listitem>
-
-        <listitem>
-          <para>Whenever you make a measurement always first reset your
-          caliper to zero, even when it already says
-          <computeroutput>00,0</computeroutput>. If you make measurements
-          without resetting the caliper to zero you might get inaccurate
-          readings.</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>Despite these two small annoyances digital calipers outperform
-      regular calipers in such a way that you can't build a RepRap printer
-      without them.</para>
-    </section>
-
-    <section>
-      <title>Spirit level</title>
-
-      <para>A spirit level is used during frame building, axes building and
-      general calibration of your printer. A smaller spirit level is better
-      than a bigger:</para>
-
-      <mediaobject id="image27">
-        <imageobject>
-          <imagedata fileref="images/spirit_level.jpg" />
-        </imageobject>
-
-        <caption><para>Image 27: Draper spirit level (<ulink
-        url="http://www.amazon.co.uk/Draper-Tools-DIY-Pocket-Level/dp/B002V9X424">source</ulink>)</para></caption>
-      </mediaobject>
-    </section>
-
-    <section>
-      <title>Plumb line</title>
-
-      <para>You need a plumb line a one point only during the build: when the
-      Z-axis smooth rods are installed. You can also hang a nut on a string
-      but a plumb line will work much better.</para>
-
-      <mediaobject id="image28">
-        <imageobject>
-          <imagedata fileref="images/plumb_line.jpg" />
-        </imageobject>
-
-        <caption><para>Image 28: Draper plumb line (<ulink
-        url="http://www.amazon.co.uk/Silverline-Plumb-Bob-Line/dp/B002QRYEEI/">source</ulink>)</para></caption>
-      </mediaobject>
-    </section>
-
-    <section>
-      <title>Installation of Z-axis bushings</title>
-
-      <para>Depending on which kinds of bushing holders you're using you need
-      different kinds of tools. There are really two categories:</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>Seperate bushings like PLA bushings or printed bushing holders
-          for brass bushings</para>
-        </listitem>
-
-        <listitem>
-          <para>Bushing holders integrated into the printed parts. This is
-          generally referred to as the Prusa <emphasis>felt branch</emphasis>.
-          This is actually a counter-intuitive name. The designer of the
-          RepRap Prusa Mendel printer - Josef Prusa - created a
-          <emphasis>branch</emphasis><footnote>
-              <para>A branch is like a separate track in a software
-              repository. In a branch things can be worked on in parallel
-              without affecting things in other branches.</para>
-            </footnote> with bushing holders integrated in the printed parts.
-          The original purpose was to glue small pieces of felt into these
-          holders (felt was then used as a bushing.) It is also possible to
-          mount brass bushings in these holder. Later on the parts for LM8UU
-          bearings were also added to this branch. The use of felt as a
-          bushing never really caught on and is now outdated. The bushing
-          holders integrated into the parts are still popular for use with
-          brass bushings and LM8UU linear bearings. <link
-          linkend="image29">Image 29</link> shows the X-end idler part with
-          integrated bushing holders.</para>
-        </listitem>
-      </itemizedlist>
-
-      <mediaobject id="image29">
-        <imageobject>
-          <imagedata fileref="images/x_end_idler_felt_branch.jpg" />
-        </imageobject>
-
-        <caption><para>Image 29: X-end idler with integrated bushing holders,
-        taken from <ulink
-        url="https://github.com/prusajr/PrusaMendel/tree/felt">Prusa felt
-        branch</ulink>.</para></caption>
-      </mediaobject>
-
-      <section>
-        <title>PLA bushings or separate bushing holders</title>
-
-        <para>You will need these tools:</para>
-
-        <itemizedlist>
-          <listitem>
-            <para>Glue for attaching your PLA bushings or bushing holders the
-            X-carriage on the X-axis, the bottom print plate on the Y-axis and
-            the X-end parts on the Z-axis.</para>
-          </listitem>
-
-          <listitem>
-            <para>Table clamp when gluing the PLA bushings or bushing holders
-            to the X-end parts on the Z-axis.</para>
-          </listitem>
-        </itemizedlist>
-      </section>
-
-      <section>
-        <title>Integrated bushing holders</title>
-
-        <para>You only really need a hair dryer. You may find that inserting
-        your brass bushings or LM8UU linear bearings into the integrated
-        bushing holders is pretty difficult. If you warm the bushing holders
-        with a hair dryer before inserting the bushings or bearings you will
-        find it becomes easier. The heat makes the plastic more
-        malleable.</para>
-      </section>
-    </section>
-
-    <section>
-      <title>Flat on motor shafts</title>
-
-      <para>You may skip this section if you're lucky enough to have a flat on
-      your motor shafts. Without a flat your axes or extruder are likely to
-      skip steps. You don't want this so you need to add a flat to your motor
-      shaft.</para>
-
-      <mediaobject id="image30">
-        <imageobject>
-          <imagedata fileref="images/motor_shaft_flat.jpg" />
-        </imageobject>
-
-        <caption><para>Image 30: a stepper motor shaft with a flat part
-        (<ulink
-        url="http://en.nanotec.com/dc_290_steppermotor_shaft_dcut.html">source</ulink>)</para></caption>
-      </mediaobject>
-
-      <para>You will need these tools to add a flat to your motor
-      shafts:</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>Iron file</para>
-        </listitem>
-
-        <listitem>
-          <para>Play-Doh or Silly Putty or alternative</para>
-        </listitem>
-
-        <listitem>
-          <para>A vise is really handy for this job. You need a way to stop
-          the shaft from turning while filing a flat. It might be possible
-          with pliers (this might also require more than two hands.)</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>Follow these <ulink
-      url="http://www.youtube.com/watch?v=DBnKPEnt9a4">excellent
-      instructions</ulink> on how to add a flat to your motor shafts (thank
-      you spacexula.)</para>
-    </section>
-  </section>
-
-  <section>
-    <title>Electronics build</title>
-
-    <para>Tools for the electronics build are required to solder the
-    components on the PCB (if you've bought a DIY kit) and for endstops and
-    motors.</para>
-
-    <section>
-      <title>Soldering</title>
-
-      <para>You need these basic soldering tools for building your own
-      electronics board. If you've bought a pre-assembled board you probably
-      still have to solder cables:</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>Soldering iron with sharp tip. If you have a broad tip you
-          should consider changing it for a finer one.</para>
-        </listitem>
-
-        <listitem>
-          <para>Solder wire.</para>
-        </listitem>
-
-        <listitem>
-          <para>Third hand</para>
-        </listitem>
-      </itemizedlist>
-
-      <mediaobject id="image31">
-        <imageobject>
-          <imagedata fileref="images/soldering_kit.jpg" />
-        </imageobject>
-
-        <caption><para>Image 31: my own soldering kit</para></caption>
-      </mediaobject>
-
-      <mediaobject id="image32">
-        <imageobject>
-          <imagedata fileref="images/third_hand.jpg" />
-        </imageobject>
-
-        <caption><para>Image 32: a very useful tool for any soldering task
-        (<ulink
-        url="http://www.kk.org/cooltools/archives/001212.php">source</ulink>)</para></caption>
-      </mediaobject>
-    </section>
-
-    <section>
-      <title>Cable stripper</title>
-
-      <para>You can't properly strip a wire of its insulation without a cable
-      stripper. People use knifes and scissors but you shouldn't. You want
-      your printer to work properly so you don't want to damage your
-      cables.</para>
-
-      <mediaobject>
-        <imageobject id="image33">
-          <imagedata fileref="images/wire_snips.jpg" />
-        </imageobject>
-
-        <caption><para>Image 33: my own cable stripper</para></caption>
-      </mediaobject>
-    </section>
-
-    <section>
-      <title>DIY Sanguinololu build</title>
-
-      <para>A Sanguinololu board has one tiny component - also called <ulink
-      url="http://en.wikipedia.org/wiki/Surface-mount_technology">SMD</ulink>
-      component. This component is called the <emphasis>FTDI chip</emphasis>
-      after the company that produces it. This chip is a USB-to-serial bridge.
-      The ATMega chip used on all RepRap electronics boards can only
-      communicate with a computer through a serial interface. This FTDI chip
-      allows the communication between the computer and the ATMega chip to
-      happen over USB instead.</para>
-
-      <para>The FTDI chip is however very small and is very difficult to
-      solder by hand. If you don't have any experience with this type of
-      soldering - I don't - it is advised to ask your vendor to solder this
-      chip on the PCB for you. I've paid €7,50 extra for this. Ask your vendor
-      for prices. If you still wish to solder this chip by hand yourself
-      you'll need <ulink
-      url="http://en.wikipedia.org/wiki/Soldering#Flux">flux</ulink>. See this
-      <ulink url="http://www.youtube.com/watch?v=bvo8Xj_yn3w">video</ulink>
-      for details on how to solder the FTDI chip on a Sanguinololu
-      board.</para>
-    </section>
-  </section>
-</article>
+<article
+><articleinfo
+><title
+>Tools and skills</title
+></articleinfo
+><para
+>You don’t need to be an electronics buff or mechanical engineer in order to build your own 3D printer. If you can screw a nut on a bolt you can build this printer.</para
+><para
+>You also don’t need to invest large amounts of money in either parts or tools. The RepRap has been designed around commonly available parts and using commonly available tools.</para
+><section
+><title
+>Mechanical build</title
+><para
+>For the mechanical build you will need these tools and the associated skills.</para
+><section
+><title
+>Wrenches and keys</title
+><itemizedlist
+><listitem
+><para
+>Open end wrenches: M8, M4 and M3</para
+></listitem
+><listitem
+><para
+>Hex keys if you’ve bought those kinds of screws</para
+></listitem
+></itemizedlist
+></section
+><section
+><title
+>Digital caliper</title
+><para
+>You can't build a RepRap and make it work without a digital caliper. If you have a normal caliper put it to the side and order a digital caliper. The digital caliper gives a readout of two significant digits after the comma. The digital caliper is required while calibrating your frame and later when calibrating your axes. You can find reliable digital calipers on Amazon for $10 or €10.</para
+><mediaobject
+id="image26"
+><imageobject
+><imagedata
+fileref="images/digital_caliper.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 26: Toolzone digital caliper (<ulink
+url="http://www.amazon.co.uk/gp/product/B001W99N6U/ref=ox_sc_act_title_1?ie=UTF8&amp;m=A3DL2PD92D06B0"
+>source</ulink
+>)</para
+></caption
+></mediaobject
+><para
+>There are two important tidbits to remember about digital calipers:</para
+><itemizedlist
+><listitem
+><para
+>When storing away your digital caliper always remove the battery. These devices never really shut down.</para
+></listitem
+><listitem
+><para
+>Whenever you make a measurement always first reset your caliper to zero, even when it already says <computeroutput
+>00,0</computeroutput
+>. If you make measurements without resetting the caliper to zero you might get inaccurate readings.</para
+></listitem
+></itemizedlist
+><para
+>Despite these two small annoyances digital calipers outperform regular calipers in such a way that you can't build a RepRap printer without them.</para
+></section
+><section
+><title
+>Spirit level</title
+><para
+>A spirit level is used during frame building, axes building and general calibration of your printer. A smaller spirit level is better than a bigger:</para
+><mediaobject
+id="image27"
+><imageobject
+><imagedata
+fileref="images/spirit_level.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 27: Draper spirit level (<ulink
+url="http://www.amazon.co.uk/Draper-Tools-DIY-Pocket-Level/dp/B002V9X424"
+>source</ulink
+>)</para
+></caption
+></mediaobject
+></section
+><section
+><title
+>Plumb line</title
+><para
+>You need a plumb line a one point only during the build: when the Z-axis smooth rods are installed. You can also hang a nut on a string but a plumb line will work much better.</para
+><mediaobject
+id="image28"
+><imageobject
+><imagedata
+fileref="images/plumb_line.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 28: Draper plumb line (<ulink
+url="http://www.amazon.co.uk/Silverline-Plumb-Bob-Line/dp/B002QRYEEI/"
+>source</ulink
+>)</para
+></caption
+></mediaobject
+></section
+><section
+><title
+>Installation of Z-axis bushings</title
+><para
+>Depending on which kinds of bushing holders you're using you need different kinds of tools. There are really two categories:</para
+><itemizedlist
+><listitem
+><para
+>Seperate bushings like PLA bushings or printed bushing holders for brass bushings</para
+></listitem
+><listitem
+><para
+>Bushing holders integrated into the printed parts. This is generally referred to as the Prusa <emphasis
+>felt branch</emphasis
+>. This is actually a counter-intuitive name. The designer of the RepRap Prusa Mendel printer - Josef Prusa - created a <emphasis
+>branch</emphasis
+><footnote
+><para
+>A branch is like a separate track in a software repository. In a branch things can be worked on in parallel without affecting things in other branches.</para
+></footnote
+> with bushing holders integrated in the printed parts. The original purpose was to glue small pieces of felt into these holders (felt was then used as a bushing.) It is also possible to mount brass bushings in these holder. Later on the parts for LM8UU bearings were also added to this branch. The use of felt as a bushing never really caught on and is now outdated. The bushing holders integrated into the parts are still popular for use with brass bushings and LM8UU linear bearings. <link
+linkend="image29"
+>Image 29</link
+> shows the X-end idler part with integrated bushing holders.</para
+></listitem
+></itemizedlist
+><mediaobject
+id="image29"
+><imageobject
+><imagedata
+fileref="images/x_end_idler_felt_branch.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 29: X-end idler with integrated bushing holders, taken from <ulink
+url="https://github.com/prusajr/PrusaMendel/tree/felt"
+>Prusa felt branch</ulink
+>.</para
+></caption
+></mediaobject
+><section
+><title
+>PLA bushings or separate bushing holders</title
+><para
+>You will need these tools:</para
+><itemizedlist
+><listitem
+><para
+>Glue for attaching your PLA bushings or bushing holders the X-carriage on the X-axis, the bottom print plate on the Y-axis and the X-end parts on the Z-axis.</para
+></listitem
+><listitem
+><para
+>Table clamp when gluing the PLA bushings or bushing holders to the X-end parts on the Z-axis.</para
+></listitem
+></itemizedlist
+></section
+><section
+><title
+>Integrated bushing holders</title
+><para
+>You only really need a hair dryer. You may find that inserting your brass bushings or LM8UU linear bearings into the integrated bushing holders is pretty difficult. If you warm the bushing holders with a hair dryer before inserting the bushings or bearings you will find it becomes easier. The heat makes the plastic more malleable.</para
+></section
+></section
+><section
+><title
+>Flat on motor shafts</title
+><para
+>You may skip this section if you're lucky enough to have a flat on your motor shafts. Without a flat your axes or extruder are likely to skip steps. You don't want this so you need to add a flat to your motor shaft.</para
+><mediaobject
+id="image30"
+><imageobject
+><imagedata
+fileref="images/motor_shaft_flat.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 30: a stepper motor shaft with a flat part (<ulink
+url="http://en.nanotec.com/dc_290_steppermotor_shaft_dcut.html"
+>source</ulink
+>)</para
+></caption
+></mediaobject
+><para
+>You will need these tools to add a flat to your motor shafts:</para
+><itemizedlist
+><listitem
+><para
+>Iron file</para
+></listitem
+><listitem
+><para
+>Play-Doh or Silly Putty or alternative</para
+></listitem
+><listitem
+><para
+>A vise is really handy for this job. You need a way to stop the shaft from turning while filing a flat. It might be possible with pliers (this might also require more than two hands.)</para
+></listitem
+></itemizedlist
+><para
+>Follow these <ulink
+url="http://www.youtube.com/watch?v=DBnKPEnt9a4"
+>excellent instructions</ulink
+> on how to add a flat to your motor shafts (thank you spacexula.)</para
+></section
+></section
+><section
+><title
+>Electronics build</title
+><para
+>Tools for the electronics build are required to solder the components on the PCB (if you've bought a DIY kit) and for endstops and motors.</para
+><section
+><title
+>Soldering</title
+><para
+>You need these basic soldering tools for building your own electronics board. If you've bought a pre-assembled board you probably still have to solder cables:</para
+><itemizedlist
+><listitem
+><para
+>Soldering iron with sharp tip. If you have a broad tip you should consider changing it for a finer one.</para
+></listitem
+><listitem
+><para
+>Solder wire.</para
+></listitem
+><listitem
+><para
+>Third hand</para
+></listitem
+></itemizedlist
+><mediaobject
+id="image31"
+><imageobject
+><imagedata
+fileref="images/soldering_kit.JPG"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 31: my own soldering kit</para
+></caption
+></mediaobject
+><mediaobject
+id="image32"
+><imageobject
+><imagedata
+fileref="images/third_hand.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 32: a very useful tool for any soldering task (<ulink
+url="http://www.kk.org/cooltools/archives/001212.php"
+>source</ulink
+>)</para
+></caption
+></mediaobject
+></section
+><section
+><title
+>Cable stripper</title
+><para
+>You can't properly strip a wire of its insulation without a cable stripper. People use knifes and scissors but you shouldn't. You want your printer to work properly so you don't want to damage your cables.</para
+><mediaobject
+><imageobject
+id="image33"
+><imagedata
+fileref="images/wire_snips.JPG"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 33: my own cable stripper</para
+></caption
+></mediaobject
+></section
+><section
+id="sanguinololu_SMD"
+><title
+>DIY Sanguinololu build</title
+><para
+>A Sanguinololu board has one tiny component - also called <ulink
+url="http://en.wikipedia.org/wiki/Surface-mount_technology"
+>SMD</ulink
+> component. This component is called the <emphasis
+>FTDI chip</emphasis
+> after the company that produces it. This chip is a USB-to-serial bridge. The ATMega chip used on all RepRap electronics boards can only communicate with a computer through a serial interface. This FTDI chip allows the communication between the computer and the ATMega chip to happen over USB instead.</para
+><para
+>The FTDI chip is however very small and is very difficult to solder by hand. If you don't have any experience with this type of soldering - I don't - it is advised to ask your vendor to solder this chip on the PCB for you. I've paid €7,50 extra for this. Ask your vendor for prices. If you still wish to solder this chip by hand yourself you'll need <ulink
+url="http://en.wikipedia.org/wiki/Soldering#Flux"
+>flux</ulink
+>. See this <ulink
+url="http://www.youtube.com/watch?v=bvo8Xj_yn3w"
+>video</ulink
+> for details on how to solder the FTDI chip on a Sanguinololu board.</para
+></section
+></section
+></article
+>

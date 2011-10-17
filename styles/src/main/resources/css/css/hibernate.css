@@ -25,6 +25,10 @@ pre.XHTML {
     line-height: 1.29em;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
+	background-color: white;
+}
+
 .article p, .article ul, .article ol, .article pre, .article blockquote, .article .mediaobject, .article .sidebar {
 	margin-left: 10%;
 	margin-right: 10%;
