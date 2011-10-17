@@ -1,5 +1,5 @@
-application: reprapbook
-version: 4
+application: reprapbook2
+version: 7
 runtime: python
 api_version: 1
 

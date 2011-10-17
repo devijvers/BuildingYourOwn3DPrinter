@@ -1,150 +1,396 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
 "http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
-<article>
-  <articleinfo>
-    <title>RepRap software</title>
-  </articleinfo>
-
-  <para>A RepRap printer is judged by the quality of the objects it has
-  printed and secondarily the speed with which these objects can be printed.
-  The quality of the prints is determined in part by the quality of your
-  mechanical build. Another important contributor to print quality or lack
-  thereof is the software you use with your RepRap and how it has been
-  configured. The fundamental pieces of software required to run a RepRap
-  printer are discussed here.</para>
-
-  <para>You will need at least four applications installed on your computer to
-  run a RepRap Prusa Mendel 3D printer. They are:</para>
-
-  <itemizedlist>
-    <listitem>
-      <para><emphasis role="bold">Arduino software</emphasis>: this
-      application allows you to install the printer firmware onto the ATMega
-      microprocessor. This installation is required each time you want to
-      update the firmware. </para>
-    </listitem>
-
-    <listitem>
-      <para><emphasis role="bold">Firmware</emphasis>: there are several
-      firmwares available for RepRap printers. The firmware is installed on
-      the ATMega microprocessor and handles the G-code instructions received
-      from the PC. Part of the configuration of the printer has to be done in
-      the firmware.</para>
-    </listitem>
-
-    <listitem>
-      <para><emphasis role="bold">Skein software</emphasis>: the most popular
-      application to slice STL files into G-code is called Skeinforge. You
-      need this piece of software each time you want to print a part.</para>
-    </listitem>
-
-    <listitem>
-      <para><emphasis role="bold">Host software</emphasis>: there are also
-      several host application available for RepRap printers. This application
-      is responsible for communicating with the electronics of the printer
-      before and during print jobs. It prepares the printer before starting a
-      print job and then also starts the actual print jobs.</para>
-    </listitem>
-  </itemizedlist>
-
-  <para>These applications are discussed in turn below.</para>
-
-  <section>
-    <title>Arduino software for RAMPS</title>
-
-    <para>For the RAMPS electronics you need to follow the instructions for
-    installing the Arduino environment:</para>
-
-    <itemizedlist>
-      <listitem>
-        <para><ulink url="http://www.arduino.cc/en/Guide/Windows">Windows
-        installation instructions</ulink></para>
-      </listitem>
-
-      <listitem>
-        <para><ulink url="http://www.arduino.cc/en/Guide/MacOSX">Mac OS X
-        installation instructions</ulink></para>
-      </listitem>
-
-      <listitem>
-        <para><ulink
-        url="http://www.arduino.cc/playground/Learning/Linux">Linux
-        installation instructions</ulink></para>
-      </listitem>
-    </itemizedlist>
-
-    <sidebar>
-      <title>COM port to communicate with your Arduino board</title>
-
-      <para>Make sure to remember or write down the COM port to which your
-      Arduino is connected. </para>
-    </sidebar>
-
-    <para>Once the Arduino board is connected to the Arduino software you can
-    skip ahead to the firmware section.</para>
-  </section>
-
-  <section>
-    <title>Arduino software for Sanguinololu</title>
-
-    <para>For the Sanguinololu board you will need to follow these Sanguino
-    installation instructions:</para>
-
-    <itemizedlist>
-      <listitem>
-        <para><ulink url="http://sanguino.cc/softwareforwindows">Windows
-        installation instructions</ulink></para>
-      </listitem>
-
-      <listitem>
-        <para><ulink url="http://sanguino.cc/softwareformac">Mac OS X
-        installation instructions</ulink></para>
-      </listitem>
-
-      <listitem>
-        <para><ulink url="http://sanguino.cc/softwareforlinux">Linux
-        installation instructions</ulink></para>
-      </listitem>
-    </itemizedlist>
-
-    <sidebar>
-      <title>COM port to communicate with your Sanguinololu board</title>
-
-      <para>Make sure to remember or write down the COM port to which your
-      Samguinololu is connected.</para>
-    </sidebar>
-
-    <para>Once the Sanguinololu board is connected to the Arduino software you
-    can follow the instructions in the firmware section.</para>
-  </section>
-
-  <section>
-    <title>Firmware</title>
-
-    <para>There are a few popular firmwares available for RepRap 3D
-    printers<footnote>
-        <para>See also the <ulink
-        url="http://reprap.org/wiki/Firmware">list</ulink> of all available
-        firmwares for RepRap printers.</para>
-      </footnote>. They are:</para>
-
-    <itemizedlist>
-      <listitem>
-        <para><ulink
-        url="https://github.com/kliment/Sprinter">Sprinter</ulink>: modern
-        firmware with support for SD cards and easy configuration</para>
-      </listitem>
-
-      <listitem>
-        <para><ulink
-        url="https://github.com/triffid/Teacup_Firmware">Teacup</ulink>:
-        claimed to be faster than Sprinter, more elaborate configuration
-        options</para>
-      </listitem>
-    </itemizedlist>
-
-    <para>Teacup is a decent alternative for Sprinter. However, because of its
-    easier configuration we advise you to get started with Sprinter.</para>
-  </section>
-</article>
+<article
+><articleinfo
+><title
+>RepRap software</title
+></articleinfo
+><para
+>A RepRap printer is judged by the quality of the objects it has printed and secondarily the speed with which these objects can be printed. The quality of the prints is determined in part by the quality of your mechanical build. Another important contributor to print quality or lack thereof is the software you use with your RepRap and how it has been configured. The fundamental pieces of software required to run a RepRap printer are discussed here.</para
+><para
+>You will need at least four applications installed on your computer to run a RepRap Prusa Mendel 3D printer. They are:</para
+><itemizedlist
+><listitem
+><para
+><emphasis
+role="bold"
+>Arduino software</emphasis
+>: this application allows you to install the printer firmware onto the ATMega microprocessor. This installation is required each time you want to update the firmware.</para
+></listitem
+><listitem
+><para
+><emphasis
+role="bold"
+>Firmware</emphasis
+>: there are several firmwares available for RepRap printers. The firmware is installed on the ATMega microprocessor and handles the G-code instructions received from the PC. Part of the configuration of the printer has to be done in the firmware.</para
+></listitem
+><listitem
+><para
+><emphasis
+role="bold"
+>Skein software</emphasis
+>: the most popular application to slice STL files into G-code is called Skeinforge. You need this piece of software each time you want to print a part.</para
+></listitem
+><listitem
+><para
+><emphasis
+role="bold"
+>Host software</emphasis
+>: there are also several host application available for RepRap printers. This application is responsible for communicating with the electronics of the printer before and during print jobs. It prepares the printer before starting a print job and then also starts the actual print jobs.</para
+></listitem
+></itemizedlist
+><para
+>These applications are discussed in turn below.</para
+><section
+><title
+>Arduino software for RAMPS</title
+><para
+>For the RAMPS electronics you need to follow the instructions for installing the Arduino environment:</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://www.arduino.cc/en/Guide/Windows"
+>Windows installation instructions</ulink
+></para
+></listitem
+><listitem
+><para
+><ulink
+url="http://www.arduino.cc/en/Guide/MacOSX"
+>Mac OS X installation instructions</ulink
+></para
+></listitem
+><listitem
+><para
+><ulink
+url="http://www.arduino.cc/playground/Learning/Linux"
+>Linux installation instructions</ulink
+></para
+></listitem
+></itemizedlist
+><sidebar
+><title
+>COM port to communicate with your Arduino board</title
+><para
+>Make sure to remember or write down the COM port to which your Arduino is connected.</para
+></sidebar
+><para
+>Once the Arduino board is connected to the Arduino software you can skip ahead to the firmware section.</para
+></section
+><section
+id="sanguino_software"
+><title
+>Arduino software for Sanguinololu</title
+><para
+>For the Sanguinololu board you will need to follow these Sanguino installation instructions:</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://sanguino.cc/softwareforwindows"
+>Windows installation instructions</ulink
+></para
+></listitem
+><listitem
+><para
+><ulink
+url="http://sanguino.cc/softwareformac"
+>Mac OS X installation instructions</ulink
+></para
+></listitem
+><listitem
+><para
+><ulink
+url="http://sanguino.cc/softwareforlinux"
+>Linux installation instructions</ulink
+></para
+></listitem
+></itemizedlist
+><sidebar
+><title
+>COM port to communicate with your Sanguinololu board</title
+><para
+>Make sure to remember or write down the COM port to which your Samguinololu is connected.</para
+></sidebar
+><para
+>Once the Sanguinololu board is connected to the Arduino software you can follow the instructions in the firmware section.</para
+></section
+><section
+><title
+>Firmware</title
+><para
+>There are a few popular firmwares available for RepRap 3D printers<footnote
+><para
+>See also the <ulink
+url="http://reprap.org/wiki/Firmware"
+>list</ulink
+> of all available firmwares for RepRap printers.</para
+></footnote
+>. They are:</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="https://github.com/kliment/Sprinter"
+>Sprinter</ulink
+>: modern firmware with support for SD cards and easy configuration</para
+></listitem
+><listitem
+><para
+><ulink
+url="https://github.com/triffid/Teacup_Firmware"
+>Teacup</ulink
+>: claimed to be faster than Sprinter, more elaborate configuration options</para
+></listitem
+></itemizedlist
+><para
+>Teacup is a decent alternative for Sprinter. However, because of its easier configuration we advise you to get started with Sprinter.</para
+><section
+><title
+>Downloading the Sprinter firmware</title
+><para
+>There are two methods to download the Sprinter firmware:</para
+><itemizedlist
+><listitem
+><para
+>Through the website.</para
+></listitem
+><listitem
+><para
+>By cloning the repository using Git.</para
+></listitem
+></itemizedlist
+><para
+>If you're not familiar with Git you should download the latest version of the Sprinter firmware from the website.</para
+><section
+><title
+>Download Sprinter through the website</title
+><para
+>Down the latest Zip archive <ulink
+url="https://github.com/kliment/Sprinter/zipball/master"
+>here</ulink
+>. Unpack the Zip archive.</para
+></section
+><section
+><title
+>Clone the Sprinter repository with Git</title
+><para
+>Execute this command:</para
+><programlisting
+>git clone https://github.com/kliment/Sprinter.git</programlisting
+></section
+></section
+><section
+><title
+>Configuring the Sprinter firmware to your electronics board</title
+><para
+>Each firmware needs to be configured in at least two important ways before you can use your printer properly:</para
+><itemizedlist
+><listitem
+><para
+>The type of electronics board you're using (RAMPS, Sanguinolo, ...)</para
+></listitem
+><listitem
+><para
+>The steps per mm: these are the steps your stepper motor needs to make for one axis to travel one mm. This value has to be configured for the three axes plus the extruder.</para
+></listitem
+></itemizedlist
+><para
+>For now you only need to configure the type of electronics board you're using.</para
+><para
+>If you're not using RAMPS version 1.2 or older you need to configure the Sprinter firmware for your electronics board. If you are using RAMPS version 1.2 or older you don't need to change any configuration; you can skip ahead to the next section. To configure the Sprinter firmware open the <computeroutput
+>Sprinter.pde</computeroutput
+> file in Arduino IDE. This file is located in the Sprinter archive you've downloaded. Edit the <computeroutput
+>Configuration.h</computeroutput
+> file. For now change only one setting that is at the top of the file:<computeroutput
+>MOTHERBOARD</computeroutput
+>. Change the line that says <computeroutput
+>#define MOTHERBOARD 3</computeroutput
+> to one of these values depending on your electronics of choice:</para
+><itemizedlist
+><listitem
+><para
+>RAMPS version 1.3 and better: <computeroutput
+>#define MOTHERBOARD 4</computeroutput
+></para
+></listitem
+><listitem
+><para
+>Sanguinololu up to version 1.1: <computeroutput
+>#define MOTHERBOARD 6</computeroutput
+></para
+></listitem
+><listitem
+><para
+>Sanguinololu version 1.2 and better: <computeroutput
+>#define MOTHERBOARD 62</computeroutput
+></para
+></listitem
+></itemizedlist
+><para
+>Make sure to save the <computeroutput
+>Configuration.h</computeroutput
+> file (CTRL+S.) Also make sure you’ve selected the correct Arduino board in Tools / Board menu:</para
+><itemizedlist
+><listitem
+><para
+>For RAMPS this should Arduino Mega (ATMega1280) or Arduino Mega 2560. The value depends on the Arduino board you're using.</para
+></listitem
+><listitem
+><para
+>For the Sanguinololu board this should be Sanguino (this option is only available if you’ve followed the Arduino software for Sanguinololu instructions <link
+linkend="sanguino_software"
+>above</link
+>.)</para
+></listitem
+></itemizedlist
+></section
+><section
+><title
+>Uploading the Sprinter firmware to your electronics board</title
+><sidebar
+><title
+>Uploading your configuration changes</title
+><para
+>Each time you make a change to the Sprinter firmware you need to upload those changes to you electronics board. Without this steps your changes will not take effect.</para
+></sidebar
+><para
+>Make sure you've opened <computeroutput
+>Sprinter.pde</computeroutput
+> file in the Arduino IDE. Press CTRL+R to compile the Sprinter firmware with your specific configuration to your electronics board. If everthing goes well you should see a message similar to this:</para
+><para
+><computeroutput
+>Binary sketch size: 29530 bytes (of a 63488 byte maximum)</computeroutput
+></para
+><para
+>When the compilation has completed press CTRL+U to upload the firmware to your board. Make sure the USB cable is connected and your electronics board is powered on. After the upload has completed reset your electronics board by pushing the reset button.</para
+></section
+></section
+><section
+><title
+>Skein software</title
+><para
+>Skeinforge is the most popular skein application in the RepRap community but it’s also notoriously complicated. Recently software developers in the RepRap community have release Pronterface. This application hides much of the complexity of Skeinforge and is also host software for a RepRap printer. When you install Pronterface there is no need to install Skeinforge separately.</para
+></section
+><section
+><title
+>Host software</title
+><para
+>Pronterface is the easiest to use host software for a RepRap 3D printer. It combines Skeinforge into a much easier to use package. With Pronterface you can load a STL file, have it converted to G-code and control your RepRap Prusa Mendel 3D printer.</para
+><section
+><title
+>Prerequisites for Windows</title
+><para
+>Before you can run Pronterface you need to install these applications. There’s is no need to restart your computer after the installations are completed. Install these applications one after the other.</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://python.org/ftp/python/2.7.2/python-2.7.2.msi"
+>Python 2.7</ulink
+>. Python is the language that Pronterface is written in.</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://pypi.python.org/packages/any/p/pyserial/pyserial-2.5.win32.exe"
+>pyserial</ulink
+>, a library that allows Python to talk to serial ports.</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://downloads.sourceforge.net/wxpython/wxPython2.8-win32-unicode-2.8.12.0-py27.exe"
+>wxPython</ulink
+>, a library to build graphical user applications in Python.</para
+></listitem
+></itemizedlist
+></section
+><section
+><title
+>Prerequisites for other operating systems</title
+><para
+>For other operating systems check the prerequisites description <ulink
+url="https://github.com/kliment/Printrun/blob/master/README.md"
+>here</ulink
+>.</para
+></section
+><section
+><title
+>Downloading Pronterface</title
+><para
+>Pronterface can also be downloaded in two ways.  Again, download the latest Zip archive from the website if you're not familiar with Git.</para
+><section
+><title
+>Download Pronterface through the website</title
+><para
+>Down the latest Zip archive <ulink
+url="https://github.com/kliment/Printrun/zipball/master"
+>here</ulink
+>. Unpack the Zip archive.</para
+></section
+><section
+><title
+>Clone the Pronterface repository with Git</title
+><para
+>Execute this command:</para
+><programlisting
+>git clone https://github.com/kliment/Printrun.git</programlisting
+></section
+></section
+><section
+><title
+>Running Pronterface</title
+><para
+>In the unzipped directory double-click on the red pronterface icon. You will see a screen like this:</para
+><mediaobject
+id="image34"
+><imageobject
+><imagedata
+fileref="images/pronterface_windows.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 34: Pronterface running on Windows.</para
+></caption
+></mediaobject
+><para
+>Select the correct COM port. Also make sure your electronics board is connected to the USB port and has power. Then click the “Connect” button. Pronterface should now have been able to connect to your electronics board. You can now try move your three axes. Start with small movements - e.g. X+1 - and make sure you don’t run into anything.</para
+></section
+></section
+><section
+><title
+>Slic3r: alternative skein application</title
+><para
+>Slic3r is a new skein application as a replacement for skeinforge. It looks very promising and the user interface is much easier to use. You can convert STL files to G-code and import these G-code file into pronterface.</para
+><para
+>You can download Slic3r <ulink
+url="http://slic3r.org/"
+>here</ulink
+>. Below is a screenshot of Slic3r:</para
+><mediaobject
+id="image35"
+><imageobject
+><imagedata
+fileref="images/slic3r_screenshot.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>Image 35: Slic3r running on Windows.</para
+></caption
+></mediaobject
+><para
+>Press the "Slice..." button to open an STL file. This will be immediately converted to a G-code file with the same name (different extension) in the same directory as the STL file. You can then open this G-code file in Pronterface (be sure to open the G-code file and not the STL file.)</para
+><sidebar
+><title
+>Work in progress</title
+><para
+>Slic3r is a work in progress. It's not as complete or stable as Skeinforge yet. It is much easier to use though.</para
+></sidebar
+></section
+></article
+>
