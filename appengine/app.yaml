@@ -149,9 +149,9 @@ handlers:
   upload: static/(.*\.xpi)
 
 # image files
-- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png|JPG))
   static_files: static/\1
-  upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png|JPG))
 
 # audio files
 - url: /(.*\.(mid|midi|mp3|wav))

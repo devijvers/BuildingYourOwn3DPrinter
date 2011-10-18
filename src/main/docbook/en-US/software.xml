@@ -200,7 +200,7 @@ url="https://github.com/kliment/Sprinter/zipball/master"
 ><para
 >For now you only need to configure the type of electronics board you're using.</para
 ><para
->If you're not using RAMPS version 1.2 or older you need to configure the Sprinter firmware for your electronics board. If you are using RAMPS version 1.2 or older you don't need to change any configuration; you can skip ahead to the next section. To configure the Sprinter firmware open the <computeroutput
+>The Sprinter firmware needs to know which electronics board and which version of the board you're using. To configure the Sprinter firmware open the <computeroutput
 >Sprinter.pde</computeroutput
 > file in Arduino IDE. This file is located in the Sprinter archive you've downloaded. Edit the <computeroutput
 >Configuration.h</computeroutput
@@ -210,6 +210,12 @@ url="https://github.com/kliment/Sprinter/zipball/master"
 >#define MOTHERBOARD 3</computeroutput
 > to one of these values depending on your electronics of choice:</para
 ><itemizedlist
+><listitem
+><para
+>RAMPS version 1.2 or older: <computeroutput
+>#define MOTHERBOARD 3</computeroutput
+></para
+></listitem
 ><listitem
 ><para
 >RAMPS version 1.3 and better: <computeroutput
@@ -365,7 +371,7 @@ fileref="images/pronterface_windows.jpg"
 ><title
 >Slic3r: alternative skein application</title
 ><para
->Slic3r is a new skein application as a replacement for skeinforge. It looks very promising and the user interface is much easier to use. You can convert STL files to G-code and import these G-code file into pronterface.</para
+>Slic3r is a new skein application as a replacement for skeinforge. It looks very promising and the user interface is much easier to use. You can convert STL files to G-code and import these G-code files into pronterface.</para
 ><para
 >You can download Slic3r <ulink
 url="http://slic3r.org/"

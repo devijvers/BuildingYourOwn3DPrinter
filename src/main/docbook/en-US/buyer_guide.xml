@@ -40,7 +40,7 @@ url="http://myworld.ebay.co.uk/nophead00/?_trksid=p4340.l2559"
 >ebay</ulink
 >. Arthx can be contacted on the <computeroutput
 >#reprap</computeroutput
-> IRC channel (his handle is arthx.) Nophead is based in the UK, Arthx in Poland. </para
+> IRC channel (his handle is arthx.) Nophead is based in the UK, Arthx in Poland.</para
 ><para
 >For the US also check out <ulink
 url="http://www.lulzbot.com/en/3-plastic-parts"
@@ -50,7 +50,7 @@ url="http://www.emakershop.com/browse/printed-parts"
 >eMAKERshop.com</ulink
 >, a website where RepRap community members buy and sell RepRap parts.</para
 ><para
->You might also want  to check out the casted parts offerd by <ulink
+>You might also want to check out the casted parts offerd by <ulink
 url="http://www.2printbeta.de/product_info.php?products_id=46"
 >2printbeta.de</ulink
 >. These are reportedly the only decent casted parts available.</para
@@ -105,10 +105,14 @@ url="http://ultimachine.com/catalog/electronics/circuit-boards-and-kits/ramps"
 ><title
 >Sanguinololu</title
 ><para
->The vendors sell Sanguinololu DIY or pre-assembled kits. For a small extra fee they will solder the SMD part for you, something which you should <link
+>These vendors sell Sanguinololu DIY or pre-assembled kits. For a small extra fee they will solder the SMD part for you, something which you should <link
 linkend="sanguinololu_SMD"
 > certainly not consider doing yourself</link
 >. Ask the vendor directly in case no such quotation is made on their website.</para
+><sidebar
+><para
+>Make sure you get the voltage regulator on you Sanguinololu. A ATX power supply usually doesn't give a clean 5V, better to get 5V for you electronics from the 12V source with a voltage regulator. If you're not sure ask your vendors.</para
+></sidebar
 ><itemizedlist
 ><listitem
 ><para
@@ -136,8 +140,58 @@ url="http://www.lulzbot.com/en/4-electronics"
 ><title
 >StepStick</title
 ><para
->TODO</para
+>Most of the vendors above carry the StepStick or Pololu boards. Be careful to actually buy the A4988 stepper drivers. The A4983 is an older chip and doesn't have overcurrent protection, the A4988 does. You will still find A4983 boards available, better avoid them.</para
 ></section
+></section
+><section
+><title
+>Power supply</title
+><para
+>You will need a ATX power supply of about 20A on the 12V channel. The current doesn't have to be higher than 20A but it shouldn't be 15A either. 20A on 12V is enough to run a RepRap Prusa Mendel 3D printer with a heated bed.</para
+></section
+><section
+><title
+>Stepper motors</title
+><para
+>The SY42STH47-1684A is the ideal stepper motor for a RepRap Prusa Mendel 3D printer because the Pololu stepper drivers can bring out its maximum torque. You want as much torque as possible on your 3D printer. These stepper motors are available from <ulink
+url="http://www.zappautomation.co.uk/product_info.php?cPath=9_43&amp;products_id=516"
+>Zapp Automation</ulink
+> (based in the UK.) Also check ruben-ikmaak (<computeroutput
+>info [at] ikmaak [dot] nl</computeroutput
+>, based in the Netherlands. Ruben also carries these stepper motors.</para
+></section
+><section
+><title
+>Hardware kits</title
+><para
+>These kits contain all rods, bolts, nuts, washers and springs required to build your printer. Usually they do not include the hardware for the extruder. Neither do they usually included the 608 bearings. Check out these vendors for hardware kits:</para
+><itemizedlist
+><listitem
+><para
+>2printbeta.de (based in Germany): <ulink
+url="http://www.2printbeta.de/product_info.php?products_id=42"
+>nuts &amp; bolts kit</ulink
+> and <ulink
+url="http://www.2printbeta.de/product_info.php?products_id=41"
+>rods kit</ulink
+></para
+></listitem
+><listitem
+><para
+>xyzprinters.com (based in the Netherlands): <ulink
+url="http://www.xyzprinters.com/nuts-bolts/93-prusa-mendel-nuts-bolts-kit-88-bzp.html"
+>nuts &amp; bolts kit</ulink
+> and <ulink
+url="http://www.xyzprinters.com/rods-bars/139-prusa-threaded-rod-kit-88-bzp.html"
+>rods kit</ulink
+></para
+></listitem
+></itemizedlist
+><para
+>Ask the vendors In case you are not certain whether or not their hardware kits include all the items on the RepRap Prusa Mendel <ulink
+url="http://reprap.org/wiki/Prusa_Mendel"
+>BOM</ulink
+>.</para
 ></section
 ></section
 ></article
