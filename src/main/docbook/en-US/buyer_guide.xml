@@ -186,12 +186,22 @@ url="http://www.xyzprinters.com/rods-bars/139-prusa-threaded-rod-kit-88-bzp.html
 >rods kit</ulink
 ></para
 ></listitem
+><listitem
+><para
+></para
+></listitem
 ></itemizedlist
 ><para
 >Ask the vendors In case you are not certain whether or not their hardware kits include all the items on the RepRap Prusa Mendel <ulink
 url="http://reprap.org/wiki/Prusa_Mendel"
 >BOM</ulink
 >.</para
+></section
+><section
+><title
+>Extruder</title
+><para
+>The printed parts for the Wade’s geared extruder are usually part of the printed parts kit but be sure to double-check. You will probably has to buy a separate Wade's geared extruder hardware kit.</para
 ></section
 ></section
 ></article
