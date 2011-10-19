@@ -110,6 +110,8 @@ linkend="sanguinololu_SMD"
 > certainly not consider doing yourself</link
 >. Ask the vendor directly in case no such quotation is made on their website.</para
 ><sidebar
+><title
+>Voltage regulator</title
 ><para
 >Make sure you get the voltage regulator on you Sanguinololu. A ATX power supply usually doesn't give a clean 5V, better to get 5V for you electronics from the 12V source with a voltage regulator. If you're not sure ask your vendors.</para
 ></sidebar
@@ -188,7 +190,10 @@ url="http://www.xyzprinters.com/rods-bars/139-prusa-threaded-rod-kit-88-bzp.html
 ></listitem
 ><listitem
 ><para
-></para
+>You can also check <ulink
+url="http://www.emakershop.com/browse/vitamins"
+>eMAKERshop</ulink
+> or ebay for vendors. Beware however of kits that contain nuts &amp; bolts, belts and printer parts; on many occassions these turn out more expensive than the sum of the parts.</para
 ></listitem
 ></itemizedlist
 ><para
@@ -201,7 +206,31 @@ url="http://reprap.org/wiki/Prusa_Mendel"
 ><title
 >Extruder</title
 ><para
->The printed parts for the Wade’s geared extruder are usually part of the printed parts kit but be sure to double-check. You will probably has to buy a separate Wade's geared extruder hardware kit.</para
+>The printed parts for the Wade’s geared extruder are usually part of the printed parts kit but be sure to double-check. You will probably has to buy a separate Wade's geared extruder hardware kit. These vendors sell them:</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://www.2printbeta.de/product_info.php?products_id=54"
+>2printbeta.de</ulink
+> (based in Germany)</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://www.xyzprinters.com/nuts-bolts/119-wade-nuts-bolts-kit.html"
+>xyzprinters.com</ulink
+> (based in the Netherlands)</para
+></listitem
+></itemizedlist
+></section
+><section
+><title
+>Kapton tape</title
+><para
+>Kapton tape is a space-age product. It's tape that can resist the high temperatures typically found around a RepRap 3D Printer. Kapton tape must be put on a heated bed (the filament won't stick to the heated bed itself) and optionally also on the hotend. You will need two widths of kapton tape: 1cm and 5cm. A roll of kapton tape typically holds about 33m. Check the vendors mentioned above for kapton tape, also check ruben-ikmaak (<computeroutput
+>info [at] ikmaak [dot] nl</computeroutput
+>, based in the Netherlands.)</para
 ></section
 ></section
 ></article

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article
+><articleinfo
+><title
+>Build instructions</title
+></articleinfo
+><sidebar
+><title
+>Work in progress</title
+><para
+>This section will be expanded and improved over time.</para
+></sidebar
+><para
+>Once most or all of your parts have arrived you're ready to start building your RepRap Prusa Mendel 3D printer. This printer come with very good build instructions:</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://reprap.org/wiki/Prusa_Build_Manual"
+>The RepRap Prusa Mendel assembly instructions with video segments</ulink
+>.</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://garyhodgson.com/reprap/prusa-mendel-visual-instructions/"
+>The RepRap Prusa Mendel visual instructions</ulink
+>.</para
+></listitem
+></itemizedlist
+><para
+>For the Wade’s geared extruder:</para
+><itemizedlist
+><listitem
+><para
+><ulink
+url="http://reprap.org/wiki/Wade's_Geared_Extruder"
+>The overview page</ulink
+>.</para
+></listitem
+><listitem
+><para
+><ulink
+url="http://garyhodgson.com/reprap/wades-geared-extruder-visual-instructions/"
+>Visual instructions</ulink
+>.</para
+></listitem
+></itemizedlist
+><para
+>In case you are in any kind of difficult or are uncertain take picture or record video and ask your questions on the <computeroutput
+>#reprap</computeroutput
+> IRC channel.</para
+></article
+>

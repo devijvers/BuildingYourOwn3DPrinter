@@ -44,5 +44,8 @@ href="software.xml"
 ><xi:include
 href="buyer_guide.xml"
 ></xi:include
+><xi:include
+href="build_instructions.xml"
+></xi:include
 ></book
 >
