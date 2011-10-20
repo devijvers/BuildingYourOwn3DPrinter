@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V1.1//EN"
+"http://www.oasis-open.org/docbook/xml/simple/1.1/sdocbook.dtd">
+<article
+><articleinfo
+><title
+>About this book</title
+></articleinfo
+><para
+>This book is licensed under the <ulink
+url="http://creativecommons.org/licenses/by-sa/3.0/"
+>Creative Commons Attribution-ShareAlike 3.0 Unported License</ulink
+>. Sharing of this work is encouraged.</para
+><section
+><title
+>How to contribute</title
+><para
+>In case you want to fix typos - there's bound to be plenty, edit this book or if you just want to add content to this book you can do so on <ulink
+url="https://github.com/devijvers/BuildingYourOwn3DPrinter"
+>GitHub</ulink
+>. You need to have a GitHub account. Creating one is easy. You will also need to install Git on your computer. There are  <ulink
+url="http://git-scm.com/download"
+>Git installation packages</ulink
+> available for many platforms. Once you have taken care of all that you should log in to GitHub and <emphasis
+>fork</emphasis
+> the repository of this book. Afterwards you can commit and <emphasis
+>push</emphasis
+> your changes to GitHub. When that is done you can send me a <emphasis
+>pull request</emphasis
+>. The next sections will discuss these steps in more details. There's also a page on GitHub <ulink
+url="http://help.github.com/send-pull-requests/"
+>dedicated to pull requests</ulink
+> (the page however might be too elaborate.)</para
+><section
+><title
+>Overview</title
+><para
+>The idea is simple enough: you want to make a small or bigger change to the content of this book. Problem: you don't have write access to the repository that holds this book's source code. You could send me an e-mail saying you would like to add this and that to such and such section. That's tedious.</para
+><para
+>Actually you do have write access to this book's source code, in a way. This book's source code is hosted on GitHub, a site for collaborative sofware development. On GitHub - once you have an account - it is very easy to <emphasis
+>fork</emphasis
+> a repository. Once you've done that you can make any changes you like.</para
+><para
+>Forking is software development jargon for making a copy of a repository. Once the copy is made this copy starts to live a life on its own but it still holds a reference to where is came from: the original repository. You can make changes on your copy of the repository - making these changes is called a <emphasis
+>commit</emphasis
+> - and you can then bring these changes to my attention. Alerting me of your changes is called a pull request.</para
+><para
+>I wil have a look at your changes. I might copy them entirely in the book. I might also make a few changes first. Or I might feel lazy and ask you to make some more changes before accepting your work into the book. In any case, when your changes make it to the book you will be listed as a contributor. The following sections explain in more detail each step of this process.</para
+></section
+><section
+><title
+>Fork the repository</title
+><para
+>TODO</para
+></section
+><section
+><title
+>Commit your changes</title
+><para
+>TODO</para
+></section
+><section
+><title
+>Push your changes</title
+><para
+>TODO</para
+></section
+><section
+><title
+>Create a pull request</title
+><para
+>TODO</para
+></section
+></section
+><section
+><title
+>Similar efforts</title
+><para
+>There is a comparable effort to this one. It's called <ulink
+url="http://reprap.org/wiki/The_incomplete_reprap_beginner%27s_guide"
+>The Incomplete RepRap Beginner's Guide</ulink
+> and it is maintained by COS.</para
+></section
+></article
+>

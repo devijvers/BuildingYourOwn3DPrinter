@@ -5,7 +5,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude"
 ><title
 >Building Your Own 3D Printer</title
 ><subtitle
->Introduction</subtitle
+>An introduction</subtitle
 ><copyright
 ><year
 >2011</year
@@ -14,7 +14,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude"
 ></copyright
 ><legalnotice
 ><para
->Building Your Own 3D Printer by Steven Devijver is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.</para
+>Building Your Own 3D Printer by Steven Devijver is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</para
 ></legalnotice
 ><author
 ><firstname
@@ -46,6 +46,9 @@ href="buyer_guide.xml"
 ></xi:include
 ><xi:include
 href="build_instructions.xml"
+></xi:include
+><xi:include
+href="about.xml"
 ></xi:include
 ></book
 >

@@ -333,7 +333,7 @@ url="https://github.com/kliment/Printrun/blob/master/README.md"
 >Download Pronterface through the website</title
 ><para
 >Download the latest Zip archive <ulink
-url="https://github.com/kliment/Printrun/zipball/master"
+url="http://koti.kapsi.fi/~kliment/printrun/"
 >here</ulink
 >. Unpack the Zip archive.</para
 ></section
@@ -344,6 +344,12 @@ url="https://github.com/kliment/Printrun/zipball/master"
 >Execute this command:</para
 ><programlisting
 >git clone https://github.com/kliment/Printrun.git</programlisting
+><para
+>Afterward change directory to the Printrun directory and run this command: </para
+><programlisting
+>git clone https://github.com/ahmetcemturan/SFACT.git skeinforge</programlisting
+><para
+>This command will clone SFact that is required by pronterface (you can also use another skeinforge version.) </para
 ></section
 ></section
 ><section
