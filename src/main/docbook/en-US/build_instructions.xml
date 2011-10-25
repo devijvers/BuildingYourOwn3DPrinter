@@ -66,10 +66,26 @@ url="http://garyhodgson.com/reprap/wades-geared-extruder-visual-instructions/"
 ><title
 >Printing spare parts</title
 ><para
->After your printer is working properly the first things you should print are spare pulleys and spare rod clamps. These parts are <ulink
+>After your printer is working properly the first things you should print are spare parts for your printer. Certain parts are <ulink
 url="http://www.youtube.com/watch?v=k14p_fGcG_4"
 >known to break</ulink
->. When they do break you want to have spares.</para
+>. You should preferably have spares of these items:</para
+><itemizedlist
+><listitem
+><para
+>Set of two Y-axis and X-axis pulleys</para
+></listitem
+><listitem
+><para
+>Entire extruder set (only in case your printer parts are made from PLA)</para
+></listitem
+><listitem
+><para
+>X-carriage (only in case your printer part is made from PLA)</para
+></listitem
+></itemizedlist
+><para
+>PLA has a lower melting temperature than ABS. The extruder set and X-carriage made from PLA have been known to get damaged due to the heat of the hotend. If these parts of your printer are made from PLA you can add a fan to blow air onto these parts.</para
 ><mediaobject
 ><imageobject
 ><imagedata
@@ -92,7 +108,7 @@ fileref="images/pulley_virtual.jpg"
 ></imageobject
 ><caption
 ><para
->RepRap Prusa Mendel pulley (<ulink
+>RepRap Prusa Mendel Y-axis and X-axis pulley (<ulink
 url="http://reprap.org/wiki/File:Pm-pulley.jpg"
 >source</ulink
 >)</para
