@@ -271,7 +271,7 @@ linkend="sanguino_software"
 >Binary sketch size: 29530 bytes (of a 63488 byte maximum)</computeroutput
 ></para
 ><para
->When the compilation has completed press CTRL+U to upload the firmware to your board. Make sure the USB cable is connected and your electronics board is powered on. After the upload has completed reset your electronics board by pushing the reset button.</para
+>When the compilation has completed you can upload the firmware to your board. Make sure the USB cable is connected and LED is on. Hold the reset button on your board and press CTRL-U. When text appears in the black window of the Arduino IDE release the reset button (an Arduino chip can only be programmed for 10 seconds after a reset.)  After the upload has completed reset your electronics board by pushing the reset button.</para
 ></section
 ></section
 ><section
@@ -345,11 +345,11 @@ url="http://koti.kapsi.fi/~kliment/printrun/"
 ><programlisting
 >git clone https://github.com/kliment/Printrun.git</programlisting
 ><para
->Afterward change directory to the Printrun directory and run this command: </para
+>Afterward change directory to the Printrun directory and run this command:</para
 ><programlisting
 >git clone https://github.com/ahmetcemturan/SFACT.git skeinforge</programlisting
 ><para
->This command will clone SFact that is required by pronterface (you can also use another skeinforge version.) </para
+>This command will clone SFact that is required by pronterface (you can also use another skeinforge version.)</para
 ></section
 ></section
 ><section

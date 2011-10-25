@@ -201,6 +201,12 @@ url="http://www.emakershop.com/browse/vitamins"
 url="http://reprap.org/wiki/Prusa_Mendel"
 >BOM</ulink
 >.</para
+><sidebar
+><title
+>Warning on LM8UU metal linear bearings</title
+><para
+>LM8UU metal linear bearings require your smooth rods to be made from rolled steel. Anything softer than rolled steel will get damaged by the linear bearings and might also damage the linear bearings. Very few kits however provide rolled steel smooth bars. For this reason LM8UU metal linear bearings can drive the price of your printer up significantly.</para
+></sidebar
 ></section
 ><section
 ><title

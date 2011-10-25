@@ -38,5 +38,6 @@
     <para>This is a good time to watch the excellent 15 minute <ulink
     url="http://tinyurl.com/prusa-intro">introduction video</ulink> on the
     RepRap Prusa Mendel 3D printer.</para>
+	<?dbhtml-include href="ohmeye_video.html"?>
   </sidebar>
 </article>

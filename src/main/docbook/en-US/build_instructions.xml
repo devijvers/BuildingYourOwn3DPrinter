@@ -10,7 +10,7 @@
 ><title
 >Work in progress</title
 ><para
->This section will be expanded and improved over time.</para
+>This section will be expanded and improved over time. For now it's made up of bits and pieces of useful information.</para
 ></sidebar
 ><para
 >Once most or all of your parts have arrived you're ready to start building your RepRap Prusa Mendel 3D printer. This printer come with very good build instructions:</para
@@ -48,9 +48,56 @@ url="http://garyhodgson.com/reprap/wades-geared-extruder-visual-instructions/"
 >.</para
 ></listitem
 ></itemizedlist
+><sidebar
+><title
+>In case of doubt</title
 ><para
 >In case you are in any kind of difficult or are uncertain take picture or record video and ask your questions on the <computeroutput
 >#reprap</computeroutput
 > IRC channel.</para
+></sidebar
+><section
+><title
+>X Y and Z axes calibration video</title
+><para
+>You have to watch this excellent video by spacexula on how to calibrate the X Y and Z axis:</para
+><?dbhtml-include href="xyz_calibration_video.html"?></section
+><section
+><title
+>Printing spare parts</title
+><para
+>After your printer is working properly the first things you should print are spare pulleys and spare rod clamps. These parts are <ulink
+url="http://www.youtube.com/watch?v=k14p_fGcG_4"
+>known to break</ulink
+>. When they do break you want to have spares.</para
+><mediaobject
+><imageobject
+><imagedata
+fileref="images/bar_clamp_virtual.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>RepRap Prusa Mendel bar clamp (<ulink
+url="http://reprap.org/wiki/File:Pm-bar-clamp.jpg"
+>source</ulink
+>)</para
+></caption
+></mediaobject
+><mediaobject
+><imageobject
+><imagedata
+fileref="images/pulley_virtual.jpg"
+></imagedata
+></imageobject
+><caption
+><para
+>RepRap Prusa Mendel pulley (<ulink
+url="http://reprap.org/wiki/File:Pm-pulley.jpg"
+>source</ulink
+>)</para
+></caption
+></mediaobject
+></section
 ></article
 >
