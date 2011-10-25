@@ -18,7 +18,7 @@ url="http://creativecommons.org/licenses/by-sa/3.0/"
 >In case you want to fix typos - there's bound to be plenty, edit this book or if you just want to add content to this book you can do so on <ulink
 url="https://github.com/devijvers/BuildingYourOwn3DPrinter"
 >GitHub</ulink
->. You need to have a GitHub account. Creating one is easy. You will also need to install Git on your computer. There are  <ulink
+>. You need to have a GitHub account. Creating one is easy. You will also need to install Git on your computer. There are <ulink
 url="http://git-scm.com/download"
 >Git installation packages</ulink
 > available for many platforms. Once you have taken care of all that you should log in to GitHub and <emphasis
@@ -80,6 +80,14 @@ url="http://help.github.com/send-pull-requests/"
 url="http://reprap.org/wiki/The_incomplete_reprap_beginner%27s_guide"
 >The Incomplete RepRap Beginner's Guide</ulink
 > and it is maintained by COS.</para
+></section
+><section
+><title
+>Contributors</title
+><para
+>These people have kindly contributed to this book:</para
+><para
+>Kliment, spacexula, MikeyK, Nudel.</para
 ></section
 ></article
 >
