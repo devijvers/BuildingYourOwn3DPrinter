@@ -155,12 +155,21 @@ url="http://www.lulzbot.com/en/4-electronics"
 ><title
 >Stepper motors</title
 ><para
+>The RepRap Prusa Mendel 3d printer uses bipolar stepper motors with four wires. The step angle should be 1.8°<footnote
+><para
+>See the <ulink
+url="http://reprap.org/wiki/StepperMotor"
+>RepRap wiki page on stepper motors</ulink
+> for more details.</para
+></footnote
+>.</para
+><para
 >The SY42STH47-1684A is the ideal stepper motor for a RepRap Prusa Mendel 3D printer because the Pololu stepper drivers can bring out its maximum torque. You want as much torque as possible on your 3D printer. These stepper motors are available from <ulink
 url="http://www.zappautomation.co.uk/product_info.php?cPath=9_43&amp;products_id=516"
 >Zapp Automation</ulink
 > (based in the UK.) Also check ruben-ikmaak (<computeroutput
 >info [at] ikmaak [dot] nl</computeroutput
->, based in the Netherlands. Ruben also carries these stepper motors.</para
+>, based in the Netherlands.) Ruben also carries these stepper motors.</para
 ></section
 ><section
 ><title
