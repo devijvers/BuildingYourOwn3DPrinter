@@ -85,7 +85,14 @@ url="http://www.youtube.com/watch?v=k14p_fGcG_4"
 ></listitem
 ></itemizedlist
 ><para
->PLA has a lower melting temperature than ABS. The extruder set and X-carriage made from PLA have been known to get damaged due to the heat of the hotend. If these parts of your printer are made from PLA you can add a fan to blow air onto these parts.</para
+>PLA has a lower melting temperature than ABS. The extruder set and X-carriage made from PLA have been known to get damaged due to the heat of the hotend. If these parts of your printer are made from PLA you should add a fan to blow air to the top of the hotend and the heat barrier<footnote
+><para
+><ulink
+url="http://www.thingiverse.com/thing:10767"
+>Here</ulink
+> is one design for a suitable fan mount.</para
+></footnote
+>. This will make damage to your PLA X-carriage and extruder parts less likely.</para
 ><mediaobject
 ><imageobject
 ><imagedata
