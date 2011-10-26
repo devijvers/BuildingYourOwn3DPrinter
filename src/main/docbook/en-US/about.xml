@@ -49,27 +49,97 @@ url="http://help.github.com/send-pull-requests/"
 ></section
 ><section
 ><title
+>Create your free GitHub account</title
+><para
+>Creating your free GitHub account is easy: go <ulink
+url="https://github.com/signup/free"
+>here</ulink
+> and fill in your user name, e-mail address and password and you're done. To install Git on your computer follow <ulink
+url="http://help.github.com/set-up-git-redirect/"
+>this guide</ulink
+> on GitHub.com. You follow that guide completely until the end (including the section on generating SSH keys and uploading your public key to GitHub.) If you skip steps in this guide you will not be able to complete the next steps.</para
+></section
+><section
+><title
 >Fork the repository</title
 ><para
->TODO</para
+>Visit <ulink
+url="https://github.com/devijvers/BuildingYourOwn3DPrinter"
+>the repository of this book</ulink
+> and click the Fork icon in the top left corner of your screen. After a few moments a copy of the repository will have been created under your user name (check the URL.)</para
+></section
+><section
+><title
+>Clone your copy of the repository</title
+><para
+>Your copy of the repository only exists on GitHub for now. You can clone the repository which copies the repository to your computer. To clone your copy of the repository first copy the URL of your repository. This URL will look like this:</para
+><programlisting
+>git@github.com:username/BuildingYourOwn3DPrinter.git</programlisting
+><para
+>The URL can be copied from the top of the page on GitHub. Once you've copied the repository URL open a command prompt on your computer and execute this command:</para
+><programlisting
+>git clone &lt;replace_with_repository_URL&gt;</programlisting
+><para
+>The git clone command will copy the repository from GitHub to your computer. You are now ready to make changes.</para
+></section
+><section
+><title
+>Making changes</title
+><para
+>This book is edited in DocBook format. DocBook is an XML notation for editing books. The files that make up this book are located under the <computeroutput
+>src/main/docbook/en-US</computeroutput
+>folder. The files are named after the section titles of this book. If you want to fix typos you can edit these files with a regular text editor. You should use a DocBook editor if you want to make bigger changes to this document. I use the personal edition of XML Mind. XML Mind is written in Java and runs on Windows, Mac OS X and Linux. You can download the personal edition of XML Mind <ulink
+url="http://www.xmlmind.com/xmleditor/download.shtml"
+>here</ulink
+>. No registration or license is required.</para
+><para
+>To view your changes in HTML you can run this command:</para
+><itemizedlist
+><listitem
+><para
+>For Windows:</para
+><programlisting
+>gradlew publish</programlisting
+></listitem
+><listitem
+><para
+>For Mac OS X and Linux:</para
+><programlisting
+>./gradlew publish</programlisting
+></listitem
+></itemizedlist
+><para
+>This command will take a few minutes to complete. Once completed you can open the <computeroutput
+>appengine/index.html</computeroutput
+> file to check your changes.</para
 ></section
 ><section
 ><title
 >Commit your changes</title
 ><para
->TODO</para
+>Once you're satisfied with your changes you will commit them. Run this command in the folder where you've made your changes:</para
+><programlisting
+>git commit -a -m "&lt;Your comment here&gt;"</programlisting
+><para
+>You should use a comment that briefly describes the changes you've made, e.g. fixed typos. When you use an informative comment others will find it easier to parse through the list of changes made to this book.</para
 ></section
 ><section
 ><title
 >Push your changes</title
 ><para
->TODO</para
+>When you've committed your changes you should <emphasis
+>push</emphasis
+> your changes to GitHub. Your committed changes are only visible on your own computer. By running the command below your changes will become visible on GitHub as well.</para
+><programlisting
+>git push</programlisting
+><para
+>Make sure this command completes without errors.</para
 ></section
 ><section
 ><title
 >Create a pull request</title
 ><para
->TODO</para
+>The last step in this process is to send me a pull request. Click the Pull Requst icon in the top left corner of your screen. On the next screen you will be asked to write a comment to accompany the pull request. Briefly describe the changes you would like me to consider. Next click the Send pull request button below and you're done.</para
 ></section
 ></section
 ><section
