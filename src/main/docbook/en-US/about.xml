@@ -133,7 +133,13 @@ url="http://www.xmlmind.com/xmleditor/download.shtml"
 ><programlisting
 >git push</programlisting
 ><para
->Make sure this command completes without errors.</para
+>Make sure this command completes without errors. When you do get errors first run this command:</para
+><programlisting
+>git pull</programlisting
+><para
+>Then run the <computeroutput
+>git push</computeroutput
+> command again.</para
 ></section
 ><section
 ><title
