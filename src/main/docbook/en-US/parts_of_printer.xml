@@ -659,12 +659,6 @@ url="http://en.nanotec.com/steppermotor_animation.html"
 >For the Z-axis this should be the position where the nozzle barely touches the print plate. When printing the software will make sure the Z-axis is lifted a little before printing the first layer.</para
 ></listitem
 ></itemizedlist
-><sidebar
-><title
->When to position your endstops</title
-><para
->Position your endstops correctly after you've calibrated your X-Y-and-Z axes. After calibration the command "move 1mm" will actually move one mm. Before calibration you can't be certain where your axis will end up.</para
-></sidebar
 ><para
 >You can choose between two kinds of end stops: optical or mechanical switch. The mechanical switches are preferred since they are much cheaper, easier to install and work just as well as optical end stops.</para
 ><sidebar
@@ -680,6 +674,11 @@ url="http://reprap.org/wiki/Mechanical_Endstop#Limitations_of_mechanical_switche
 ></footnote
 >. Optical endstops are on paper more reliable than mechanical endstops but in practice they are not (todo: discuss.) You should go for mechanical endstops.</para
 ></sidebar
+><para
+>Proximity sensors are especially useful for the Z-axis. The starting position of the nozzle over the print plate is crucial. A <ulink
+url="http://reprap.org/wiki/Hall-%CE%98"
+>Hall sensor</ulink
+> detects the presence of a magnetic field. A magnet is glued to the bottom of the X-end idler or X-end motor. A small potentiometer allows you to fine-tune the distance between the nozzle and the print plate. This is much more practical than moving your mechanical or optical endstop up and down.</para
 ><para
 >End stops are not required at the opposite ends. The <emphasis
 >firmware</emphasis

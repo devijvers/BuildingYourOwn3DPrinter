@@ -241,6 +241,12 @@ url="http://www.xyzprinters.com/nuts-bolts/119-wade-nuts-bolts-kit.html"
 ></section
 ><section
 ><title
+>Hotends</title
+><para
+>TODO</para
+></section
+><section
+><title
 >Kapton tape</title
 ><para
 >Kapton tape is a space-age product. It's tape that can resist the high temperatures typically found around a RepRap 3D Printer. Kapton tape must be put on a heated bed (the filament won't stick to the heated bed itself) and optionally also on the hotend. You will need two widths of kapton tape: 1cm and 5cm. A roll of kapton tape typically holds about 33m. Check the vendors mentioned above for kapton tape, also check ruben-ikmaak (<computeroutput

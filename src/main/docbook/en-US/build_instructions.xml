@@ -122,5 +122,14 @@ url="http://reprap.org/wiki/File:Pm-pulley.jpg"
 ></caption
 ></mediaobject
 ></section
+><section
+><title
+>Selecting voltage for endstops on the Sanguinololu board</title
+><para
+>On the Sanguinololu board you have to <ulink
+url="http://reprap.org/wiki/Sanguinololu#Endstops"
+>select the voltage for the endstops</ulink
+>. If you don't make this selection you will not have current on your endstop connectors. This is not a problem when you use three mechanical endstops. However, if you use optical endstops or a hall sensor you will have to select a voltage. Both the optical endstops and the hall sensor require 5V.</para
+></section
 ></article
 >
